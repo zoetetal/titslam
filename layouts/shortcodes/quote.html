@@ -1,0 +1,36 @@
+{{- $book := .Get "book" | default "" -}}
+{{- $chapter := .Get "chapter" | default "" -}}
+{{- $nospoiler := .Get "nospoiler" | default "" -}}
+{{- $bookTitle := "" -}}
+{{- $bookAcronym := "" -}}
+{{- $bookColor := "" -}}
+{{- if $book -}}
+  {{- $bookNum := $book | int -}}
+  {{- range hugo.Data.books -}}
+    {{- if eq (int .number) $bookNum -}}
+      {{- $bookTitle = .title -}}
+      {{- $bookAcronym = .acronym -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $paletteName := site.Params.palette | default "vibrant" -}}
+  {{- $palette := index hugo.Data.palettes $paletteName -}}
+  {{- $bookColor = index $palette $book -}}
+{{- end -}}
+<blockquote class="book-quote" {{ with $bookColor }}style="border-left-color: {{ . }}"{{ end }}>
+  {{- if and $book (ne $nospoiler "true") -}}
+  <div class="book-quote-text spoiler" data-level="{{ $book }}" role="button" tabindex="0" title="{{ $bookTitle }}" aria-label="Spoiler quote for {{ $bookTitle }}. Click to toggle.">{{ .Inner }}</div>
+  {{- else -}}
+  <div class="book-quote-text">{{ .Inner }}</div>
+  {{- end -}}
+  {{- if or $bookTitle $chapter -}}
+  <footer class="book-quote-source">
+    {{- if $bookTitle -}}
+      <cite>{{ $bookTitle }}</cite>
+    {{- end -}}
+    {{- if and $bookTitle $chapter -}}, {{ end -}}
+    {{- if $chapter -}}
+      <span class="book-quote-chapter">{{ $chapter }}</span>
+    {{- end -}}
+  </footer>
+  {{- end -}}
+</blockquote>

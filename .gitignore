@@ -1,0 +1,22 @@
+# Hugo build output
+public/
+resources/_gen/
+
+# Hugo lock file
+.hugo_build.lock
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Downloaded cover images & extraction scripts
+covers/
+
+# Python venv
+.venv/

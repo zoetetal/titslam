@@ -1,0 +1,11 @@
+{{- $num := .Get 0 | int -}}
+{{- $mode := .Get 1 | default "full" -}}
+{{- range hugo.Data.books -}}
+  {{- if eq (int .number) $num -}}
+    {{- if eq $mode "short" -}}
+      <cite class="book-title" data-level="{{ .number }}" title="{{ .title }}">{{ .acronym }}</cite>
+    {{- else -}}
+      <cite class="book-title" data-level="{{ .number }}" title="{{ .acronym }}">{{ .title }}</cite>
+    {{- end -}}
+  {{- end -}}
+{{- end -}}

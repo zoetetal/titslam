@@ -1,0 +1,14 @@
+{{- $level := .Get "level" -}}
+{{- $label := "" -}}
+{{- $levelNums := split $level "," -}}
+{{- range $i, $l := $levelNums -}}
+  {{- $lTrimmed := trim $l " " -}}
+  {{- range hugo.Data.books -}}
+    {{- if eq (printf "%v" .number) $lTrimmed -}}
+      {{- if $label }}{{ $label = printf "%s, " $label }}{{ end -}}
+      {{- $label = printf "%s%s" $label .title -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+<span class="spoiler" data-level="{{ $level }}" role="button" tabindex="0" title="{{ $label }}" aria-label="Spoiler for {{ $label }}. Click to toggle.">{{- .Inner -}}</span>
+{{- "" -}}

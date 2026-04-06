@@ -1,0 +1,54 @@
+- number: 0
+  title: "Scolopendra Levels"
+  short: "Scolopendra"
+  acronym: "SL"
+
+- number: 1
+  title: "Dungeon Crawler Carl"
+  short: "Book 1"
+  acronym: "DCC"
+
+- number: 2
+  title: "Carl's Doomsday Scenario"
+  short: "Book 2"
+  acronym: "CDS"
+
+- number: 3
+  title: "The Dungeon Anarchist's Cookbook"
+  short: "Book 3"
+  acronym: "DAC"
+
+- number: 4
+  title: "The Gate of the Feral Gods"
+  short: "Book 4"
+  acronym: "GotFG"
+
+- number: 5
+  title: "The Butcher's Masquerade"
+  short: "Book 5"
+  acronym: "TBM"
+
+- number: 6
+  title: "The Eye of the Bedlam Bride"
+  short: "Book 6"
+  acronym: "EotBB"
+
+- number: 7
+  title: "This Inevitable Ruin"
+  short: "Book 7"
+  acronym: "TIR"
+
+- number: 8
+  title: "A Parade of Horribles"
+  short: "Book 8"
+  acronym: "APoH"
+
+- number: 9
+  title: "Book 9 (TBD)"
+  short: "Book 9"
+  acronym: "TBD"
+
+- number: 10
+  title: "Future Books & Speculation"
+  short: "Speculation"
+  acronym: "FBS"

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ .Title }} | {{ site.Title }}</title>
+  <meta name="description" content="{{ site.Params.description | default site.Title }}">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💣</text></svg>">
+  {{- $mainCSS := resources.Get "css/main.css" | minify -}}
+  <link rel="stylesheet" href="{{ $mainCSS.RelPermalink }}">
+  {{- $spoilerCSS := resources.Get "css/spoilers.css" | minify -}}
+  <link rel="stylesheet" href="{{ $spoilerCSS.RelPermalink }}">
+  {{/* Generate ALL palette colors as CSS for dynamic switching */}}
+  <style id="palette-styles">
+    {{- range $name, $colors := hugo.Data.palettes }}
+    {{- range $bookNum, $color := $colors }}
+    [data-palette="{{ $name }}"] .spoiler[data-level="{{ $bookNum }}"],
+    [data-palette="{{ $name }}"] .spoiler-toggle-btn[data-level="{{ $bookNum }}"] { --book-color: {{ $color }}; }
+    {{- end }}
+    {{- end }}
+  </style>
+</head>
+<body data-theme="default" data-palette="{{ site.Params.palette | default "vibrant" }}">
+  <a href="#main-content" class="skip-link">Skip to content</a>
+  <!-- Temporary switcher bar for previewing themes and palettes -->
+  <div class="switcher-bar" role="toolbar" aria-label="Design preview controls">
+    <label for="theme-select">Theme:</label>
+    <select id="theme-select">
+      <option value="default">Default</option>
+      <option value="paper">Paper</option>
+      <option value="papermod">PaperMod (Dark)</option>
+      <option value="serif">Serif</option>
+      <option value="serif-dark">Serif (Dark)</option>
+    </select>
+    <label for="palette-select">Palette:</label>
+    <select id="palette-select">
+      {{- range $name, $colors := hugo.Data.palettes }}
+      <option value="{{ $name }}">{{ $name | strings.FirstUpper | replaceRE "_" " " }}</option>
+      {{- end }}
+    </select>
+  </div>
+
+  <div class="site-wrapper">
+    <header class="site-header">
+      <h1 class="site-title">{{ site.Title }}</h1>
+      {{ with site.Params.description }}
+      <p class="site-description">{{ . }}</p>
+      {{ end }}
+    </header>
+
+    <main id="main-content" class="site-content">
+      {{ block "main" . }}{{ end }}
+    </main>
+
+    <footer class="site-footer">
+      <p>Built with <a href="https://gohugo.io/">Hugo</a></p>
+      <p class="license">This work is licensed under <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.</p>
+    </footer>
+  </div>
+
+  {{- $spoilerJS := resources.Get "js/spoilers.js" | minify -}}
+  <script src="{{ $spoilerJS.RelPermalink }}"></script>
+  {{- $tocJS := resources.Get "js/toc.js" | minify -}}
+  <script src="{{ $tocJS.RelPermalink }}"></script>
+  <script>
+    (function() {
+      var themeSelect = document.getElementById('theme-select');
+      var paletteSelect = document.getElementById('palette-select');
+
+      // Restore saved choices
+      var savedTheme = localStorage.getItem('dcc-theme');
+      var savedPalette = localStorage.getItem('dcc-palette') || '{{ site.Params.palette | default "vibrant" }}';
+
+      // Auto-detect dark mode if user hasn't chosen a theme
+      if (!savedTheme) {
+        savedTheme = (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'papermod' : 'default';
+      }
+
+      document.body.setAttribute('data-theme', savedTheme);
+      document.body.setAttribute('data-palette', savedPalette);
+      themeSelect.value = savedTheme;
+      paletteSelect.value = savedPalette;
+
+      themeSelect.addEventListener('change', function() {
+        document.body.setAttribute('data-theme', this.value);
+        localStorage.setItem('dcc-theme', this.value);
+      });
+
+      paletteSelect.addEventListener('change', function() {
+        document.body.setAttribute('data-palette', this.value);
+        localStorage.setItem('dcc-palette', this.value);
+      });
+    })();
+  </script>
+</body>
+</html>

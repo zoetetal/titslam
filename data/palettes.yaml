@@ -1,0 +1,102 @@
+# Named color palettes for spoiler tags.
+# Each palette maps book numbers (1-9) to colors.
+# To switch palettes, change `palette` in hugo.toml params.
+#
+# Tips for choosing colors:
+#   - Ensure sufficient contrast against both white and dark backgrounds
+#   - Avoid colors too similar to each other (especially adjacent books)
+#   - Test with the "Reveal All" button to check border-color readability
+
+vibrant:
+  "0":  "#95a5a6"    # silver
+  "1":  "#e74c3c"    # red
+  "2":  "#3498db"    # blue
+  "3":  "#2ecc71"    # green
+  "4":  "#9b59b6"    # purple
+  "5":  "#e67e22"    # orange
+  "6":  "#1abc9c"    # teal
+  "7":  "#f1c40f"    # gold
+  "8":  "#e91e99"    # magenta
+  "9":  "#00bcd4"    # cyan
+  "10": "#78909c"    # blue-grey
+
+muted:
+  "0":  "#7f8c8d"    # grey
+  "1":  "#c0392b"    # dark red
+  "2":  "#2980b9"    # dark blue
+  "3":  "#27ae60"    # dark green
+  "4":  "#8e44ad"    # dark purple
+  "5":  "#d35400"    # dark orange
+  "6":  "#16a085"    # dark teal
+  "7":  "#d4ac0d"    # dark gold
+  "8":  "#c2185b"    # dark magenta
+  "9":  "#0097a7"    # dark cyan
+  "10": "#607d8b"    # dark blue-grey
+
+pastel:
+  "0":  "#b0bec5"    # pastel silver
+  "1":  "#ef9a9a"    # pastel red
+  "2":  "#90caf9"    # pastel blue
+  "3":  "#a5d6a7"    # pastel green
+  "4":  "#ce93d8"    # pastel purple
+  "5":  "#ffcc80"    # pastel orange
+  "6":  "#80cbc4"    # pastel teal
+  "7":  "#fff176"    # pastel gold
+  "8":  "#f48fb1"    # pastel pink
+  "9":  "#80deea"    # pastel cyan
+  "10": "#b0bec5"    # pastel grey
+
+earth:
+  "0":  "#8d8d8d"    # stone
+  "1":  "#a1887f"    # clay
+  "2":  "#5d99c6"    # slate blue
+  "3":  "#689f38"    # olive
+  "4":  "#7b5ea7"    # plum
+  "5":  "#c17900"    # amber
+  "6":  "#00897b"    # forest teal
+  "7":  "#c49000"    # ochre
+  "8":  "#ad1457"    # berry
+  "9":  "#00838f"    # deep teal
+  "10": "#546e7a"    # slate
+
+neon:
+  "0":  "#b0b0b0"    # neon silver
+  "1":  "#ff1744"    # neon red
+  "2":  "#2979ff"    # neon blue
+  "3":  "#00e676"    # neon green
+  "4":  "#d500f9"    # neon purple
+  "5":  "#ff9100"    # neon orange
+  "6":  "#1de9b6"    # neon teal
+  "7":  "#ffea00"    # neon yellow
+  "8":  "#ff4081"    # neon pink
+  "9":  "#00e5ff"    # neon cyan
+  "10": "#90a4ae"    # neon grey
+
+# Extracted from Ace Hardback cover art (Scott Wegner illustrations)
+# Raw dominant colors - very vibrant/neon, true to the cover skulls
+covers_raw:
+  "0":  "#8a9bae"    # neutral steel
+  "1":  "#fbc033"    # gold/yellow (DCC)
+  "2":  "#ff00d7"    # hot magenta (CDS)
+  "3":  "#ff2120"    # bright red (DAC)
+  "4":  "#f5ff00"    # neon yellow (GotFG)
+  "5":  "#00ff01"    # neon green (TBM)
+  "6":  "#ff7f01"    # orange (EotBB)
+  "7":  "#00ffc8"    # cyan/teal (TIR)
+  "8":  "#ab158f"    # purple (APoH - secondary; primary red conflicts w/ book 3)
+  "9":  "#3a7cff"    # blue (TBD - no cover yet)
+  "10": "#8a9bae"    # muted steel (speculation)
+
+# Cover-inspired but toned for readability as spoiler bars
+covers:
+  "0":  "#7a8a9a"    # neutral steel
+  "1":  "#d9a228"    # warm gold (DCC)
+  "2":  "#d916b8"    # deep magenta (CDS)
+  "3":  "#d42b2b"    # true red (DAC)
+  "4":  "#b8c419"    # yellow-green (GotFG - shifted to separate from book 1)
+  "5":  "#1ea832"    # rich green (TBM)
+  "6":  "#d97014"    # burnt orange (EotBB)
+  "7":  "#14b894"    # teal (TIR)
+  "8":  "#9b1480"    # mulberry (APoH)
+  "9":  "#2e6ed9"    # cobalt blue (TBD - no cover yet)
+  "10": "#7a8fa3"    # muted steel (speculation)
