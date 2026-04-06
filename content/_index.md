@@ -40,7 +40,7 @@ OK, enough scene setting! on to the details of the theory
 
 ## Levels as History
 
-### Floor 0: Before the Catastrophe
+### Floor 0: Before the Cataclysm
 
 {{% spoiler level="0" %}} This is an unknowable time of the Primals before recorded history. This phase of the galaxy ended after some kind of attack - metaphorically, Scolopendra's 9-tier attack-  that destroyed, transformed or sent into hiding the Primals. Floor 0 is the surface of the host world, and in the metaphorical architecture of the dungeon, represents the previous civilization of the Primals. The dungeon always starts with the "collapse" of Floor 0.  {{% /spoiler %}}
 
@@ -52,7 +52,7 @@ The ruins. It’s the same as the dungeon, but it’s all old, rotting buildings
 
 
 
-{{% spoiler level="0" %}} In this phase of the galaxy's history, all that is left is the ruins of civilization with some small & primitive outposts of civilization {{% /spoiler %}}
+{{% spoiler level="0" %}} In this phase of the galaxy's history, the cataclysm has destroyed or transformed the Primals, and all that is left is the ruins of civilization with some small & primitive outposts remaining.  {{% /spoiler %}}
 
 {{% spoiler level="0" %}}They know little of the civilization that preceded them. One of the few remnants of the precursor/primal civilization is a form of communal entertainment for children -  a circus - that previously  featured excitement, thrills, & wonder - with no real danger -  but this entertainment has been twisted to darkness. The ringleader, Grimaldi, has lost his identity and exists more as a force of nature that ensures "the show must go on".{{% /spoiler %}}
 

@@ -145,6 +145,11 @@
     document.body.appendChild(tip);
 
     var hideTimer = null;
+    var lastTouchTime = 0;
+
+    function isSyntheticMouse() {
+      return Date.now() - lastTouchTime < 500;
+    }
 
     function showTip(el) {
       if (el.classList.contains("revealed")) return;
@@ -189,12 +194,18 @@
         el.removeAttribute("title");
       }
 
-      el.addEventListener("mouseenter", function () { showTip(el); });
-      el.addEventListener("mousemove", function (e) { positionTip(el, e); });
-      el.addEventListener("mouseleave", hideTip);
-      el.addEventListener("touchstart", function (e) {
+      el.addEventListener("mouseenter", function () {
+        if (!isSyntheticMouse()) showTip(el);
+      });
+      el.addEventListener("mousemove", function (e) {
+        if (!isSyntheticMouse()) positionTip(el, e);
+      });
+      el.addEventListener("mouseleave", function () {
+        if (!isSyntheticMouse()) hideTip();
+      });
+      el.addEventListener("touchstart", function () {
+        lastTouchTime = Date.now();
         showTip(el);
-        // Position above the first rect of the tapped element
         var rects = el.getClientRects();
         if (rects.length > 0) {
           tip.style.left = rects[0].left + "px";
