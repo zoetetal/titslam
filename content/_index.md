@@ -18,8 +18,8 @@ In case you havent figured all this out, this whole fabel with the Scolopendra l
 
 In the Dungeon Crawler Carl series, the Scoloprendra levels are floors 3, 6, 9, 12, 15 and 18. They are mostly defined and initally described in {{< book 1 >}} and {{< book 2 >}}, and consist of {{% spoiler level="2" %}} The Overcity (floor3), the Hunting Grounds (floor 6), Faction War(floor 9), Ascendancy Games(floor 12), Sheol (floor 15) and the Scolopendra Club (Floor 18). The levels are described as being based on well known fairy tale in the Galactic Community, and traditional set of floors in all Crawls. They don't seem to be part of the other types of resource recovery scenarios such as free-for-all battle world. {{% /spoiler %}}
 
-The TL/DR of my theory is that 
-* All the Scolopendra levels represent the political and economic history of the galacy {{% spoiler level="2" %}} as it recovers from the attack that ended the Primals{{% /spoiler %}}
+## TL/DR  
+* All the Scolopendra levels represent the political and economic history of the galaxy {{% spoiler level="2" %}} as it recovers from the attack that ended the Primals{{% /spoiler %}}
 * People and places and things in the Scolopendra levels are direct analogues to people, places and things “outside” the dungeon
 * During Carl’s dungeon run, things that happen in Scolopendra levels prefigure things that happen outside the dungeon
 
@@ -27,7 +27,7 @@ If all the scoloprendra levels are settings from a singular fairy tale, what is 
 
  
 
-# Layers of Analysis 
+## Layers of Analysis 
 To set our context, there  are 3 levels literary analysis here (i.e. fandom nerding out) 
 *  the original in-universe fairy tale on which the Borant Dungeon showrunners base the Scolopendra levels
 *  The story the showrunners and the AI tell together in Carl’s instance of the dungeon
@@ -38,11 +38,13 @@ The clues in the text are pretty clear about the first 2. But the last one is im
 
 OK, enough scene setting! on to the details of the theory
 
-## Floor 0: Before the Catastrophe
+## Levels as History
+
+### Floor 0: Before the Catastrophe
 
 {{% spoiler level="0" %}} This is an unknowable time of the Primals before recorded history. This phase of the galaxy ended after some kind of attack - metaphorically, Scolopendra's 9-tier attack-  that destroyed, transformed or sent into hiding the Primals. Floor 0 is the surface of the host world, and in the metaphorical architecture of the dungeon, represents the previous civilization of the Primals. The dungeon always starts with the "collapse" of Floor 0.  {{% /spoiler %}}
 
-## Floor 3: Aftermath of the Attack.
+### Floor 3: Aftermath of the Attack.
 
 {{< quote book="2" chapter="Chapter 3" >}}
 The ruins. It’s the same as the dungeon, but it’s all old, rotting buildings, abandoned and overgrown parks and so forth.
@@ -58,7 +60,7 @@ The ruins. It’s the same as the dungeon, but it’s all old, rotting buildings
 
 {{% spoiler level="0" %}} Back to the metaphor for the history of the galaxy - In the fairy tale, soul gems are powered by the souls of the dead and can provide the safety and security of the remnant civilizations.  In the galactic history, the center system AI is discovered and used for the same purpose.  In this metaphor Remax would be standing in for the center system AI, enslaved, and powered by the collected residue of seeded worlds and primal engines. {{% /spoiler %}}
 
-## Floor 6: The Hunt for Resources
+### Floor 6: The Hunt for Resources
 
 {{< quote book="2" chapter="Chapter 3" >}}
 It is called the Hunting Grounds. It’s another urban level with similar villages, though the villages are much bigger, and the original residents were much more wealthy. The ruins are jungle-like and filled with vines.
@@ -72,7 +74,12 @@ After the attack, most everyone died, and the jungle ran rampant, swallowing the
 {{% spoiler level="0" %}}The metaphor is explicit on floor 6 - hunters chase down & kill the crawlers who actually have that fuel in their heads.  The hunt for resources continues until all resources are claimed, i.e the galaxy if fully explored, and in the process of being exploited. The whole galaxy runs economically, physically, on this resource and how it’s exploited to fuel the central system.  {{% /spoiler %}}
 
 
-## Floor 9: War of Territory & Political Influence
+### Floor 9: War of Territory & Political Influence
+
+{{< quote book="4" chapter="Chapter 33" >}} Larracos is like a dream. It is a living, breathing poem. 
+{{< /quote >}}
+
+
 {{% spoiler level="0" %}} Now the galaxy has been explored, the known seeded planets claimed and political & physical territory seized. Various governments attempt to claim more territory and resources and establish exclusive influence on the central zone - which is represented by Larracos on the floor.  {{% /spoiler %}}
 
 {{% spoiler level="0" %}} In the dungeon, this floor is played by heads of state and makes the metaphor very explicit. The end of this floor would usually represent the resolution of most political conflicts and entering into a stable period where Larrocos - the central zone -  is occupied & managed by a single political entity or governing body.  {{% /spoiler %}}
@@ -81,14 +88,14 @@ After the attack, most everyone died, and the jungle ran rampant, swallowing the
 
 
 
-## Floor 12: Struggle of the Oligarchs 
+### Floor 12: Struggle of the Oligarchs 
 
 {{% spoiler level="0" %}} Floor 12 really represents the current state of the galaxy. Politically the heads of state retain influence but the governing body of the central systems keeps things very stable. {{% /spoiler %}}
 
 {{% spoiler level="0" %}} Fabulously rich individuals have more direct power than any head of state and struggle with each other for economic influence and power. Again the metaphor is explicit as these individuals are the ones who play the role of Gods on this floor.  {{% /spoiler %}}
 
 
-## Floors 15 and 18. 
+### Floors 15 and 18. 
 {{% spoiler level="0" %}} I believe these really are meant to represent future states of the universe - either a hell or a paradise -  but I admit there’s not a lot of evidence here either way.  Both of them seem bad - endless fields of fire or a bunch of rich a-holes having a party. For both of them there’s not lot of direct knowledge - they even explicitly say that no one really knows what’s happening on Floor 15 - and the really makes me think it represents a future state, but we’ll see. {{% /spoiler %}}
  
 

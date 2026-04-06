@@ -144,6 +144,43 @@
       "white-space:nowrap;z-index:9999;";
     document.body.appendChild(tip);
 
+    var hideTimer = null;
+
+    function showTip(el) {
+      if (el.classList.contains("revealed")) return;
+      var label = el.getAttribute("data-level-label");
+      if (!label) return;
+      tip.textContent = label;
+      tip.style.opacity = "1";
+      clearTimeout(hideTimer);
+      hideTimer = setTimeout(function () { tip.style.opacity = "0"; }, 1500);
+    }
+
+    function hideTip() {
+      clearTimeout(hideTimer);
+      tip.style.opacity = "0";
+    }
+
+    function positionTip(el, e) {
+      if (el.classList.contains("revealed")) return;
+      var rects = el.getClientRects();
+      var targetRect = null;
+      for (var i = 0; i < rects.length; i++) {
+        var r = rects[i];
+        if (e.clientY >= r.top && e.clientY <= r.bottom) {
+          targetRect = r;
+          break;
+        }
+      }
+      if (!targetRect && rects.length > 0) {
+        targetRect = rects[0];
+      }
+      if (targetRect) {
+        tip.style.left = targetRect.left + "px";
+        tip.style.top = (targetRect.top - tip.offsetHeight - 4) + "px";
+      }
+    }
+
     document.querySelectorAll(".spoiler[data-level]").forEach(function (el) {
       // Move title to data attr so native tooltip doesn't show
       var titleVal = el.getAttribute("title");
@@ -152,38 +189,18 @@
         el.removeAttribute("title");
       }
 
-      el.addEventListener("mouseenter", function () {
-        if (el.classList.contains("revealed")) return;
-        var label = el.getAttribute("data-level-label");
-        if (!label) return;
-        tip.textContent = label;
-        tip.style.opacity = "1";
-      });
-
-      el.addEventListener("mousemove", function (e) {
-        if (el.classList.contains("revealed")) return;
-        // Use getClientRects to get per-line-fragment rects for inline elements
+      el.addEventListener("mouseenter", function () { showTip(el); });
+      el.addEventListener("mousemove", function (e) { positionTip(el, e); });
+      el.addEventListener("mouseleave", hideTip);
+      el.addEventListener("touchstart", function (e) {
+        showTip(el);
+        // Position above the first rect of the tapped element
         var rects = el.getClientRects();
-        var targetRect = null;
-        for (var i = 0; i < rects.length; i++) {
-          var r = rects[i];
-          if (e.clientY >= r.top && e.clientY <= r.bottom) {
-            targetRect = r;
-            break;
-          }
+        if (rects.length > 0) {
+          tip.style.left = rects[0].left + "px";
+          tip.style.top = (rects[0].top - tip.offsetHeight - 4) + "px";
         }
-        if (!targetRect && rects.length > 0) {
-          targetRect = rects[0];
-        }
-        if (targetRect) {
-          tip.style.left = targetRect.left + "px";
-          tip.style.top = (targetRect.top - tip.offsetHeight - 4) + "px";
-        }
-      });
-
-      el.addEventListener("mouseleave", function () {
-        tip.style.opacity = "0";
-      });
+      }, { passive: true });
     });
   }
 
