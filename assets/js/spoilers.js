@@ -29,8 +29,8 @@
   }
 
   function initializeState() {
-    // Find all unique book numbers from spoiler elements
-    document.querySelectorAll(".spoiler[data-level]").forEach(function (el) {
+    // Find all unique book numbers from spoiler elements AND control buttons
+    document.querySelectorAll(".spoiler[data-level], .spoiler-toggle-btn[data-level]").forEach(function (el) {
       var books = el.getAttribute("data-level").split(",");
       books.forEach(function (b) {
         b = b.trim();

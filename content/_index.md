@@ -11,7 +11,7 @@ There’s this whole storyline about the existence of the city. It’s all based
 {{< /quote >}}
 
 {{< quote book="7" chapter="Chapter 7" >}}
-In case you havent figured all this out, this whole fabel with the Scolopendra levels is based on a fairytale. But what is that fairytale based on? I think it's pretty obvious, but sometimes you guys need a little push. 
+In case you havent figured all this out, this whole fable with the Scolopendra levels is based on a fairytale. But what is that fairytale based on? I think it's pretty obvious, but sometimes you guys need a little push. 
 {{< /quote >}}
 
 ## What are the Scoloprendra levels? 
@@ -89,6 +89,11 @@ After the attack, most everyone died, and the jungle ran rampant, swallowing the
 
 
 ### Floor 12: Struggle of the Oligarchs 
+
+
+{{< quote book="6" chapter="Chapter 19" >}} 
+The winner of the Ascendency battle gets a 10-season seat on the crawl council.
+{{< /quote >}}
 
 {{% spoiler level="0" %}} Floor 12 really represents the current state of the galaxy. Politically the heads of state retain influence but the governing body of the central systems keeps things very stable. {{% /spoiler %}}
 
