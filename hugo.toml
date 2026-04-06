@@ -1,6 +1,6 @@
 baseURL = 'https://zoetetal.github.io/titslam/'
 locale = 'en-us'
-title = 'Dungeon Crawler Carl Theory'
+title = 'TITSLAM'
 
 disableKinds = ['taxonomy', 'term']
 
