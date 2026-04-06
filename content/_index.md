@@ -1,5 +1,9 @@
 ---
 title: "Theologically Integrated Theory of Scolopendra Levels Analogues and Metaphors."
+intro: |
+  This is my fan theory about the Scolopendra levels in the Dungeon Crawler Carl series. I don't think I'm the only person to come up with this theory but I do think there are some interesting insights I pull together.
+
+  **How to use this site:** If you don't want to be spoiled in general, DO NOT READ THIS SITE! I've tried to hide everything behind different spoiler tags but if you want to hit everything totally fresh, come back after you've read all the books. If you've read some of the books, but not all of them, and still want to read further — great! Use the spoiler controls below to reveal spoilers related to books you've read.
 ---
 
 {{< quote book="2" chapter="Chapter 3" >}}
@@ -9,16 +13,6 @@ There’s this whole storyline about the existence of the city. It’s all based
 {{< quote book="7" chapter="Chapter 7" >}}
 In case you havent figured all this out, this whole fabel with the Scolopendra levels is based on a fairytale. But what is that fairytale based on? I think it's pretty obvious, but sometimes you guys need a little push. 
 {{< /quote >}}
-
-## Introduction
-
-This is my fan theory about the Scoloprendra levels in the Dungeon Crawler Carl series. I don't think I'm the only person to come up with this theory but I do think there are some interesting insights I pull together. 
-
-## How to use this site
-If you don't want to be spoiled in general, DO NOT READ THIS SITE! I've tried to hide everything behind differen spoiler tags but if you want to hit every thing totally fresh, come back after you've read all the books. 
-If you've read some of the books, but not all of them, and still want to read further - great! use the book selectors above to reveal spoilers related to books you've read. 
-
----
 
 ## What are the Scoloprendra levels? 
 

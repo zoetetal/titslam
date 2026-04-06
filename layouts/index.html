@@ -1,4 +1,11 @@
 {{ define "main" }}
+  {{/* --- Intro (above spoiler controls) --- */}}
+  {{ with .Params.intro }}
+  <div class="site-intro">
+    {{ . | markdownify }}
+  </div>
+  {{ end }}
+
   {{/* --- Spoiler Control Panel --- */}}
   <nav class="spoiler-controls" role="region" aria-label="Spoiler controls — toggle which books' spoilers are visible">
     <div class="spoiler-controls-header">

@@ -171,6 +171,23 @@ body {
 }
 
 /* --- Content --- */
+.site-intro {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--color-border);
+  font-size: inherit;
+  line-height: 1.7;
+  color: var(--color-text);
+}
+
+.site-intro p {
+  margin-bottom: 0.75rem;
+}
+
+.site-intro p:last-child {
+  margin-bottom: 0;
+}
+
 .theory-content {
   margin-top: 1rem;
 }
