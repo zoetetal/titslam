@@ -2,70 +2,13 @@
    Main Site Styles — Themeable via CSS variables
    ============================================ */
 
-/* --- Theme: Default (current look) --- */
-[data-theme="default"], :root {
-  --font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-  --font-heading: var(--font-body);
-  --font-size: 17px;
-  --line-height: 1.75;
-  --max-width: 740px;
-  --color-bg: #fff;
-  --color-text: #2c3e50;
-  --color-heading: #1a1a2e;
-  --color-subheading: #2c3e50;
-  --color-link: #3498db;
-  --color-muted: #666;
-  --color-border: #eee;
-  --color-footer: #aaa;
-  --header-border-width: 2px;
-  --h2-border: 1px solid var(--color-border);
-}
-
-/* --- Theme: Paper --- */
-[data-theme="paper"] {
-  --font-body: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  --font-heading: var(--font-body);
-  --font-size: 18px;
-  --line-height: 1.8;
-  --max-width: 680px;
-  --color-bg: #fff;
-  --color-text: #1a1a1a;
-  --color-heading: #000;
-  --color-subheading: #1a1a1a;
-  --color-link: #1a73e8;
-  --color-muted: #999;
-  --color-border: #e0e0e0;
-  --color-footer: #bbb;
-  --header-border-width: 0px;
-  --h2-border: none;
-}
-
-/* --- Theme: PaperMod --- */
-[data-theme="papermod"] {
+/* --- Theme: Light --- */
+[data-theme="light"], :root {
   --font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   --font-heading: var(--font-body);
   --font-size: 17px;
   --line-height: 1.75;
   --max-width: 720px;
-  --color-bg: #1d1e20;
-  --color-text: #d1d1d1;
-  --color-heading: #eee;
-  --color-subheading: #ccc;
-  --color-link: #6db3f2;
-  --color-muted: #888;
-  --color-border: #333;
-  --color-footer: #666;
-  --header-border-width: 1px;
-  --h2-border: 1px solid var(--color-border);
-}
-
-/* --- Theme: Serif --- */
-[data-theme="serif"] {
-  --font-body: Georgia, "Times New Roman", Times, serif;
-  --font-heading: Georgia, "Times New Roman", Times, serif;
-  --font-size: 18px;
-  --line-height: 1.85;
-  --max-width: 700px;
   --color-bg: #faf8f5;
   --color-text: #333;
   --color-heading: #1a1a1a;
@@ -78,13 +21,13 @@
   --h2-border: 1px solid var(--color-border);
 }
 
-/* --- Theme: Serif Dark --- */
-[data-theme="serif-dark"] {
-  --font-body: Georgia, "Times New Roman", Times, serif;
-  --font-heading: Georgia, "Times New Roman", Times, serif;
-  --font-size: 18px;
-  --line-height: 1.85;
-  --max-width: 700px;
+/* --- Theme: Dark --- */
+[data-theme="dark"] {
+  --font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  --font-heading: var(--font-body);
+  --font-size: 17px;
+  --line-height: 1.75;
+  --max-width: 720px;
   --color-bg: #1a1714;
   --color-text: #c8bfb0;
   --color-heading: #e8dfd0;
@@ -253,34 +196,42 @@ body {
   color: var(--color-footer);
 }
 
-/* --- Switcher Bar (temporary, for previewing) --- */
-.switcher-bar {
+/* --- Theme Toggle --- */
+.theme-toggle {
   position: sticky;
   top: 0;
   z-index: 100;
   background: var(--color-bg);
   border-bottom: 1px solid var(--color-border);
-  padding: 0.5rem 1rem;
+  padding: 0.4rem 1rem;
   display: flex;
-  gap: 1rem;
-  align-items: center;
-  font-size: 0.8rem;
-  color: var(--color-muted);
+  justify-content: flex-end;
   max-width: calc(var(--max-width) + 260px);
   margin: 0 auto;
 }
 
-.switcher-bar label {
-  font-weight: 600;
+.theme-toggle-btn {
+  background: none;
+  border: 1px solid var(--color-border);
+  border-radius: 20px;
+  padding: 0.25rem 0.75rem;
+  cursor: pointer;
+  font-size: 0.8rem;
+  color: var(--color-muted);
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  transition: color 0.15s, border-color 0.15s;
 }
 
-.switcher-bar select {
-  font-size: 0.8rem;
-  padding: 0.2rem 0.4rem;
-  border-radius: 4px;
-  border: 1px solid var(--color-border);
-  background: var(--color-bg);
+.theme-toggle-btn:hover {
   color: var(--color-text);
+  border-color: var(--color-text);
+}
+
+.theme-toggle-btn .toggle-icon {
+  font-size: 1rem;
+  line-height: 1;
 }
 
 /* --- Responsive --- */
@@ -297,9 +248,8 @@ body {
     font-size: 1.4rem;
   }
 
-  .switcher-bar {
-    flex-wrap: wrap;
-    gap: 0.5rem;
+  .theme-toggle {
+    padding: 0.3rem 0.5rem;
   }
 
   .theory-content h2 {
@@ -314,14 +264,14 @@ body {
 /* --- Auto dark mode for users without explicit theme choice --- */
 @media (prefers-color-scheme: dark) {
   body:not([data-theme]) {
-    --color-bg: #1d1e20;
-    --color-text: #d1d1d1;
-    --color-heading: #eee;
-    --color-subheading: #ccc;
-    --color-link: #6db3f2;
-    --color-muted: #888;
-    --color-border: #333;
-    --color-footer: #666;
+    --color-bg: #1a1714;
+    --color-text: #c8bfb0;
+    --color-heading: #e8dfd0;
+    --color-subheading: #bfb49e;
+    --color-link: #c9956a;
+    --color-muted: #8a7f6f;
+    --color-border: #3a332a;
+    --color-footer: #6a6050;
   }
 }
 

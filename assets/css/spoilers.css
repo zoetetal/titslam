@@ -134,8 +134,7 @@
   background-color: color-mix(in srgb, var(--book-color) 12%, var(--color-bg));
 }
 
-[data-theme="papermod"] .spoiler.revealed:hover,
-[data-theme="serif-dark"] .spoiler.revealed:hover {
+[data-theme="dark"] .spoiler.revealed:hover {
   background-color: color-mix(in srgb, var(--book-color) 25%, var(--color-bg));
 }
 
