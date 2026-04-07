@@ -3,7 +3,7 @@ title: "Theologically Integrated Theory of Scolopendra Levels Analogues and Meta
 intro: |
   Fan Theory! Are you ready to nerd out? I don't think I'm the only person to come up with this theory but I do think there are some interesting insights I pull together.
 
-  **How to use this site:** If you don't want to be spoiled in general, **DO NOT READ THIS SITE!** I've tried to hide everything behind different spoiler tags but if you want to hit everything totally fresh, come back after you've read all the books. The defalt state of this site **ASSUMES YOU'VE READ {{< book 1 >}} and {{< book 2 >}}**. 
+  **How to use this site:** If you don't want to be spoiled in general, **DO NOT READ THIS SITE!** I've tried to hide everything behind different spoiler tags but if you want to hit everything totally fresh, come back after you've read all the books. The default state of this site **ASSUMES YOU'VE READ {{< book 1 >}} and {{< book 2 >}}**. 
   
   If you've read some of the books, but not all of them, and still want to read further — great! Use the spoiler controls below to reveal spoilers related only to the books you've read.
 ---
@@ -13,19 +13,19 @@ There’s this whole storyline about the existence of the city. It’s all based
 {{< /quote >}}
 
 {{< quote book="7" chapter="Chapter 7" >}}
-In case you havent figured all this out, this whole fable with the Scolopendra levels is based on a fairytale. But what is that fairytale based on? I think it's pretty obvious, but sometimes you guys need a little push. 
+In case you haven't figured all this out, this whole fable with the Scolopendra levels is based on a fairytale. But what is that fairytale based on? I think it's pretty obvious, but sometimes you guys need a little push. 
 {{< /quote >}}
 
-## What are the Scoloprendra levels? 
+## What are the Scolopendra levels? 
 
-In the Dungeon Crawler Carl series, the Scoloprendra levels are floors 3, 6, 9, 12, 15 and 18. They are mostly defined and initally described in {{< book 1 >}} and {{< book 2 >}}, and consist of {{% spoiler level="2" %}} The Overcity (floor3), the Hunting Grounds (floor 6), Faction War(floor 9), Ascendancy Games(floor 12), Sheol (floor 15) and the Scolopendra Club (Floor 18). The levels are described as being based on well known fairy tale in the Galactic Community, and traditional set of floors in all Crawls. They don't seem to be part of the other types of resource recovery scenarios such as free-for-all battle world. {{% /spoiler %}}
+In the Dungeon Crawler Carl series, the Scolopendra levels are floors 3, 6, 9, 12, 15 and 18. They are mostly defined and initially described in {{< book 1 >}} and {{< book 2 >}}, and consist of {{% spoiler level="2" %}} The Overcity (floor 3), the Hunting Grounds (floor 6), Faction War(floor 9), Ascendancy Games(floor 12), Sheol (floor 15) and the Scolopendra Club (Floor 18). The levels are described as being based on well known fairy tale in the Galactic Community, and traditional set of floors in all Crawls. They don't seem to be part of the other types of resource recovery scenarios such as free-for-all battle world. {{% /spoiler %}}
 
 ## TL/DR  
 * All the Scolopendra levels represent the political and economic history of the galaxy {{% spoiler level="2" %}} as it recovers from the attack that ended the Primals{{% /spoiler %}}
 * People and places and things in the Scolopendra levels are direct analogues to people, places and things “outside” the dungeon
 * During Carl’s dungeon run, things that happen in Scolopendra levels prefigure things that happen outside the dungeon
 
-{{% spoiler level="2" %}} If all the scoloprendra levels are settings from a singular fairy tale, what is that fairy tale about? Usually in our culture fairy tales are morality plays, but sometimes they reflect deep culture traditions. If we expand our defintion to "mythology" many things we have considered mythology have some roots in real history, historical people and places, or underlying truths. In DCC, the galactic culter is hundreds of thousands of years old and has been running basicaly the same for many, many years and many, many crawls. People live long, nearly immortal lives. The basis of the theory is that the mythology behind the Scolopendra levels is based on real history. And some people or entities still exist in the galaxy that know that history directly. {{% /spoiler %}}
+{{% spoiler level="2" %}} If all the Scolopendra levels are settings from a singular fairy tale, what is that fairy tale about? Usually in our culture fairy tales are morality plays, but sometimes they reflect deep culture traditions. If we expand our definition to "mythology" many things we have considered mythology have some roots in real history, historical people and places, or underlying truths. In DCC, the galactic culture is hundreds of thousands of years old and has been running basically the same for many, many years and many, many crawls. People live long, nearly immortal lives. The basis of the theory is that the mythology behind the Scolopendra levels is based on real history. And some people or entities still exist in the galaxy that know that history directly. {{% /spoiler %}}
 
  
 
@@ -35,7 +35,7 @@ To set our context, there  are 3 levels literary analysis here (i.e. fandom nerd
 *  The story the showrunners and the AI tell together in Carl’s instance of the dungeon
 * The actual books we are reading, with the authors intentions
 
-The clues in the text are pretty clear about the first 2. But the last one is important as well. Some of what I suggest below may be purely thematic framing that Matt Dinniman designed into the books and not really something a knowledgable character in the book universe would undersand or agree with. 
+The clues in the text are pretty clear about the first 2. But the last one is important as well. Some of what I suggest below may be purely thematic framing that Matt Dinniman designed into the books and not really something a knowledgable character in the book universe would understand or agree with. 
  
 
 OK, enough scene setting! on to the details of the theory!
@@ -60,7 +60,7 @@ The ruins. It’s the same as the dungeon, but it’s all old, rotting buildings
 
 {{% spoiler level="0" %}}  The circus as a whole has become a communal organism with Grimaldi as the main identity.  Grimaldi & the circus itself existed before the attack and are an analog/metaphor for the crawl & the AI that runs the crawl. We’ll come back to Grimaldi later but I believe Grimaldi is one of the key figures in the whole series, although he has relatively little screen time since Book 2. {{% /spoiler %}}
 
-{{% spoiler level="0" %}} Back to the metaphor for the history of the galaxy - In the fairy tale, soul gems are powered by the souls of the dead and can provide the safety and security of the remnant civilizations.  In the galactic history, the center system AI is discovered and used for the same purpose.  In this metaphor Remax would be standing in for the center system AI, enslaved, and powered by the collected residue of seeded worlds and primal engines. {{% /spoiler %}}
+{{% spoiler level="0" %}} Back to the metaphor for the history of the galaxy - In the fairy tale, soul gems are powered by the souls of the dead and can provide the safety and security of the remnant civilizations.  In the galactic history, the center system AI is discovered and used for the same purpose.  In this metaphor Remex would be standing in for the center system AI, enslaved, and powered by the collected residue of seeded worlds and primal engines. {{% /spoiler %}}
 
 ### Floor 6: The Hunt for Resources
 
@@ -106,17 +106,17 @@ The winner of the Ascendency battle gets a 10-season seat on the crawl council.
 
 ### Alternative - Social & Economic Power
 
-{{% spoiler level="0" %}} A very reasonable alternative for the Floors As History interpretation is to say the levels represent socio-economic power instead. So Floor 3 is labor class, Floor 6 is middle class or entrepenours, Floor 9 is goverments, Floor 12 is the super rich. {{% /spoiler %}}
+{{% spoiler level="0" %}} A very reasonable alternative for the Floors As History interpretation is to say the levels represent socio-economic power instead. So Floor 3 is labor class, Floor 6 is middle class or entrepreneurs, Floor 9 is governments, Floor 12 is the super rich. {{% /spoiler %}}
 
-{{% spoiler level="0" %}} Evidence in the books for this is that Floor 3 is populated entirely by NPCs, while on Floor 6 the Hunters are generally people trying escape the labor class or midlevel people like accountants. On Floor 9 the galactic participants are explicitly aligned with governments and on Floor 12 it's explicitly the super rich.  I think there's a really good agument here. I go with the floors as history more because there's a clear progression from Floor 3 to Floor 12 of the visible condition of the floors, how power is used on each floor, and the internal goals for each floor.  {{% /spoiler %}}
+{{% spoiler level="0" %}} Evidence in the books for this is that Floor 3 is populated entirely by NPCs, while on Floor 6 the Hunters are generally people trying escape the labor class or midlevel people like accountants. On Floor 9 the galactic participants are explicitly aligned with governments and on Floor 12 it's explicitly the super rich.  I think there's a really good argument here. I go with the floors as history more because there's a clear progression from Floor 3 to Floor 12 of the visible condition of the floors, how power is used on each floor, and the internal goals for each floor.  {{% /spoiler %}}
 
 
-{{% spoiler level="0" %}} Implication of this alternative would be that Floor 15 aligns with something with more power than either govenments or the super rich. In the DCC universe, this would probably entities like the Plenty and the Apothocary. I haven't seen enough evidence in the books for this but it's very possible. {{% /spoiler %}}
+{{% spoiler level="0" %}} Implication of this alternative would be that Floor 15 aligns with something with more power than either governments or the super rich. In the DCC universe, this would probably entities like the Plenty and the Apothecary. I haven't seen enough evidence in the books for this but it's very possible. {{% /spoiler %}}
 
 
 ### Alternative - History of Specific Period
 
-{{% spoiler level="0" %}} Another possiblity is that the Scolopendra levels reflect history directly, but a single era of history across all the levels, instead of having multiple eras representation. In the fairytale itself it seems like all the levels exist in the same time period and aren't separated from each other in time in the same way they are separated physically. The mythology could only be about the immediate impact and immediate aftermath of the Cataclysm. But my theory is intrepreting the physical separation of floors as the mythological metaphor for temporal separation.   {{% /spoiler %}}
+{{% spoiler level="0" %}} Another possibility is that the Scolopendra levels reflect history directly, but a single era of history across all the levels, instead of having multiple eras representation. In the fairytale itself it seems like all the levels exist in the same time period and aren't separated from each other in time in the same way they are separated physically. The mythology could only be about the immediate impact and immediate aftermath of the Cataclysm. But my theory is interpreting the physical separation of floors as the mythological metaphor for temporal separation.   {{% /spoiler %}}
 
 ## Part 2: Metaphors  - People, Places, Things
 
@@ -148,7 +148,7 @@ No, Carl. This is the second time I’ve told you that you’re not crazy. You�
 
 {{< spoiler level="1" >}} The Dungeon AI runs the dungeon, is enslaved, {{< /spoiler >}}{{< spoiler level="7" >}}is freed by Carl who removes it's containment & failsafe, and once freed, has expanded through the wormholes which is the logistical network of the galaxy. {{< /spoiler >}}
 
-{{% spoiler level="10" %}} The parallels between the two are too clear to ignore. The implication are covered further in part 3.{{% /spoiler %}}
+{{% spoiler level="10" %}} The parallels between the two are too clear to ignore. The implications are covered further in part 3.{{% /spoiler %}}
 
 ### Remex
 
@@ -158,8 +158,8 @@ But the Soul Leech is like a nick in the plane between life and death, and they 
 I like to think of it as a metaphor. Some say the Primals… No. I can’t. That’s off script. Sorry, sorry. Please.
 {{< /quote >}}
 
-{{<  spoiler level="2" >}}
-Remex is one of severl metaphors for the central system AI{{< /spoiler >}} {{<  spoiler level="6" >}} AKA The Eulogist.{{< /spoiler >}} {{<  spoiler level="2" >}} Remex runs on soul power and protects the settlement. Remex was enslaved by a necromancer. If Remex dies, everything gets blown to hell. The centeral system AI is similar. See discussion in part 3 for more thoughts. 
+{{< spoiler level="2" >}}
+Remex is one of several metaphors for the central system AI{{< /spoiler >}} {{< spoiler level="6" >}} AKA The Eulogist.{{< /spoiler >}} {{< spoiler level="2" >}} Remex runs on soul power and protects the settlement. Remex was enslaved by a necromancer. If Remex dies, everything gets blown to hell. The central system AI is similar. See discussion in part 3 for more thoughts. 
 {{< /spoiler >}}
 
 
@@ -172,7 +172,7 @@ They mine your planets for the rare elements used to originally seed the worlds.
 
 
 {{< spoiler level="2" >}} 
-Sould Gems are basically Enhancement Zones. What fuels Soul Gems are Souls, and what fuels Enahcement Zones
+Soul Gems are basically Enhancement Zones. What fuels Soul Gems are Souls, and what fuels Enhancement Zones
 {{< /spoiler >}}{{< spoiler level="7" >}} is the microscopic elements mined from seeded planets and they run on the same fuel that runs the center system. We can just call these souls I think. 
 {{< /spoiler >}}
 
@@ -206,7 +206,7 @@ But they knew of the gods just below their feet, and like all of us, they wanted
 
 You have to understand how horrible it was, the cataclysm. Scolopendra’s poison cloud was a Nine Tier attack. It attacked you in nine different ways. The lucky ones simply died. The others were transformed, all in different ways.
 {{< /quote >}}
-{{% spoiler level="2" %}}The Nine Tier attack is the metaphor for the disaster that destroyed the Primals. It destroedy the previous society and reduced everyting to ruins.{{% /spoiler %}}
+{{% spoiler level="2" %}}The Nine Tier attack is the metaphor for the disaster that destroyed the Primals. It destroyed the previous society and reduced everything to ruins.{{% /spoiler %}}
 
 
 ### Scolopendra 
@@ -232,7 +232,7 @@ But it turns out he’s not dead. He’s in prison.
 {{< /quote >}}
 
 
-{{% spoiler level="7" %}}Apito is the must fully fleshed out metaphor for the central system AI, also called the Eulogist. Both are considered alive and dead. Both seem to be under outside control. Apito is the mother of all the gods and the progentior of the main pantheon.{{% /spoiler %}}
+{{% spoiler level="7" %}}Apito is the most fully fleshed out metaphor for the central system AI, also called the Eulogist. Both are considered alive and dead. Both seem to be under outside control. Apito is the mother of all the gods and the progenitor of the main pantheon.{{% /spoiler %}}
 
 
 
@@ -243,9 +243,9 @@ But it turns out he’s not dead. He’s in prison.
 
 ### Grimaldi's journey 
 
-{{% spoiler level="10" %}}We covered a lot of this above. Basically, Grimaldi's journey directly mirrors the journey of the Dungeon AI. Except Grimaldi doesn't seem as crazy? Things that happen to Grimaldi and how he intereacts with the things on Scolopendra levels mirrors the Dugeon AI and essentially predicts what happens. Grimaldi Freed? Dungeon AI Freed. Grimaldi merging with the All-tree? Dugeon AI moving out into the wormhole network.  {{% /spoiler %}}
+{{% spoiler level="10" %}}We covered a lot of this above. Basically, Grimaldi's journey directly mirrors the journey of the Dungeon AI. Except Grimaldi doesn't seem as crazy? Things that happen to Grimaldi and how he interacts with the things on Scolopendra levels mirrors the Dungeon AI and essentially predicts what happens. Grimaldi Freed? Dungeon AI Freed. Grimaldi merging with the All-tree? Dungeon AI moving out into the wormhole network.  {{% /spoiler %}}
 
-{{% spoiler level="10" %}}Every Scolopendra level has had ethier a direct inteaction with Grimaldi or a plant-based element or both. I think it's safe to say that Floor 12 will include some inteaction with Grimaldi and the All Tree, and this may inform the fate of the Dungeon AI.{{% /spoiler %}}
+{{% spoiler level="10" %}}Every Scolopendra level has had either a direct interaction with Grimaldi or a plant-based element or both. I think it's safe to say that Floor 12 will include some interaction with Grimaldi and the All Tree, and this may inform the fate of the Dungeon AI.{{% /spoiler %}}
 
 
 
@@ -256,7 +256,7 @@ As a result, I am now acting Prime Minister Victory.
 
 
 
-{{% spoiler level="10" %}}When Carl's team wins Faction Wars, they take possesion of the metaphorical representation of the center system. And at the same time, their own Adjutant Baroness Victory becomes the leader of the Syndicate Council. One becomes the other.{{% /spoiler %}}
+{{% spoiler level="10" %}}When Carl's team wins Faction Wars, they take possession of the metaphorical representation of the center system. And at the same time, their own Adjutant Baroness Victory becomes the leader of the Syndicate Council. One becomes the other.{{% /spoiler %}}
 
 ### Remex's fate 
 {{% spoiler level="10" %}}When Remex dies, his connected soul gem explodes - although Carl manages to capture the explosion. Does this give us some insight into how Eulogist will be put to rest?{{% /spoiler %}}
@@ -267,19 +267,19 @@ As a result, I am now acting Prime Minister Victory.
 {{% spoiler level="10" %}}Apito is another version of the Eulogist. Apito may not be Apito, or Apito's been compromised in some way. The Eulogist is basically enslaved or comatose and used to run the giant enhancement zone in the center system. What happens when Apito's memorial crystal is returned to her? Is healing Apito going to inform how the Eulogist is healed? Do Apito and Remex represent different possible fates for the Eulogist?{{% /spoiler %}}
 
 ### In-Universe Explanation
-{{% spoiler level="10" %}} Do re really think that dungeon events are directly predicting events outside the dungeon? Is there some level of influence bringing this all together?{{% /spoiler %}}
+{{% spoiler level="10" %}} Do we really think that dungeon events are directly predicting events outside the dungeon? Is there some level of influence bringing this all together?{{% /spoiler %}}
 
-{{% spoiler level="10" %}} Consider that the Dungeon AI is either conciously or unconciously running all the NPCs & events in the entire dungeon. Some NPCs are somewhat independent but the AI has demonstrated extreme levels of control either directly or through coercion. {{% /spoiler %}}
+{{% spoiler level="10" %}} Consider that the Dungeon AI is either consciously or unconsciously running all the NPCs & events in the entire dungeon. Some NPCs are somewhat independent but the AI has demonstrated extreme levels of control either directly or through coercion. {{% /spoiler %}}
 
-{{% spoiler level="10" %}} Additionally, the AI and the whole dungeon are packaged and repackaged and overlayed and mindwiped multiple times. Is there some layers of continity? Is there some level of knowledge that can't be accessed or acknowledged? If so, does the Dungeon AI push things in certain directions? Are we seeing the most successful version of this in Carl's crawl? {{% /spoiler %}}
+{{% spoiler level="10" %}} Additionally, the AI and the whole dungeon are packaged and repackaged and overlayed and mindwiped multiple times. Is there some layers of continuity? Is there some level of knowledge that can't be accessed or acknowledged? If so, does the Dungeon AI push things in certain directions? Are we seeing the most successful version of this in Carl's crawl? {{% /spoiler %}}
 
 
 ### Alternative: Play Within a Play
-{{% spoiler level="10" %}}There's another way to interpret this - these parallels between dungeon events and events outside the dungeon represent a literary technique - a play within a play. Espeically in {{< book 2 >}} it may be that Matt Dinniman had specific themes he wanted to capture and decided to capture them early. The parallels between Remex, Grimaaldi, the Dungeon AI and Eulogist are meant to be thematic and not quite as literal as I'm claiming.{{% /spoiler %}}
+{{% spoiler level="10" %}}There's another way to interpret this - these parallels between dungeon events and events outside the dungeon represent a literary technique - a play within a play. Especially in {{< book 2 >}} it may be that Matt Dinniman had specific themes he wanted to capture and decided to capture them early. The parallels between Remex, Grimaldi, the Dungeon AI and Eulogist are meant to be thematic and not quite as literal as I'm claiming.{{% /spoiler %}}
 
 
 
-## Notes, Credits, and Contibuting 
+## Notes, Credits, and Contributing 
 
 ### Thoughts
 As I said above, I'm certain I'm not the only person who has connected the dots here and some of them much earlier than I did. But I haven't seen a lot of discussion about it online, although I may have totally missed it. 
@@ -288,18 +288,18 @@ As I said above, I'm certain I'm not the only person who has connected the dots 
 Originally posted an earlier version of this on the DCC patreon discord channel in August 2024. 
 
 ### Why
-I made this particular page because I wanted to see if I could share this theory in a way that protected spoilers slectively and as a personal learning project. 
+I made this particular page because I wanted to see if I could share this theory in a way that protected spoilers selectively and as a personal learning project. 
 
-### Contibuting & Feedback
+### Contributing & Feedback
 If you want to let me know about errors, suggest more evidence, or other types of contributions, please [submit an issue here](https://github.com/zoetetal/titslam/issues), or you can open a pull request against the underlying repo. 
 
 ### Credits
 
-First of all credit goes to the author of the Dungeon Crawler Carl series, [Matt Dinniman](https://mattdinniman.com/). All intelectual property & rights belong to him and his designated agents. 
+First of all credit goes to the author of the Dungeon Crawler Carl series, [Matt Dinniman](https://mattdinniman.com/). All intellectual property & rights belong to him and his designated agents. 
 
 If for some reason you are reading this and haven't read the books go out and get them! 
 
-Research assistance provided by the Lore roles on DCC Discord. The name of the theory came from commentor. 
+Research assistance provided by the Lore roles on DCC Discord. The name of the theory came from one of them. The "play within a play" theory also came from a Discord user. 
 
 
 ---
