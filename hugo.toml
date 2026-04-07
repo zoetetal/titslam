@@ -5,7 +5,7 @@ title = 'TITSLAM'
 disableKinds = ['taxonomy', 'term']
 
 [params]
-  description = 'A fan theory about the Scolopendra levels in the Dungeon Crawler Carl series by Matt Dinniman. Spoiler-protected analysis of the mythology, metaphors, and hidden history behind the dungeon floors.'
+  description = 'A fan theory about the Scolopendra levels in the Dungeon Crawler Carl series by Matt Dinniman. Spoiler-protected analysis of the histories, mythology, and hidden metaphors behind the dungeon floors.'
   # Change this to switch spoiler color palettes.
   # Options: vibrant, muted, pastel, earth, neon, covers, covers_raw
   # See data/palettes.yaml to add your own.
