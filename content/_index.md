@@ -301,6 +301,11 @@ If for some reason you are reading this and haven't read the books go out and ge
 
 Research assistance provided by the Lore roles on DCC Discord. The name of the theory came from one of them. The "play within a play" theory also came from a Discord user. 
 
+#### Other Resources
+* [Dungeon Crawler Carl on Amazon](https://www.amazon.com/dp/B08BX5D4LC) — the book series
+* [Dungeon Crawler Carl on Goodreads](https://www.goodreads.com/series/309211-dungeon-crawler-carl) — reviews and ratings
+* [r/DungeonCrawlerCarl](https://www.reddit.com/r/DungeonCrawlerCarl/) — the subreddit
+
 
 ---
 
