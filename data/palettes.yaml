@@ -18,7 +18,7 @@ vibrant:
   "7":  "#f1c40f"    # gold
   "8":  "#e91e99"    # magenta
   "9":  "#00bcd4"    # cyan
-  "10": "#78909c"    # blue-grey
+  "10": "#a0522d"    # sienna
 
 muted:
   "0":  "#7f8c8d"    # grey
@@ -31,7 +31,7 @@ muted:
   "7":  "#d4ac0d"    # dark gold
   "8":  "#c2185b"    # dark magenta
   "9":  "#0097a7"    # dark cyan
-  "10": "#607d8b"    # dark blue-grey
+  "10": "#8b4513"    # saddle brown
 
 pastel:
   "0":  "#b0bec5"    # pastel silver
@@ -44,7 +44,7 @@ pastel:
   "7":  "#fff176"    # pastel gold
   "8":  "#f48fb1"    # pastel pink
   "9":  "#80deea"    # pastel cyan
-  "10": "#b0bec5"    # pastel grey
+  "10": "#c19a6b"    # camel
 
 earth:
   "0":  "#8d8d8d"    # stone
@@ -57,7 +57,7 @@ earth:
   "7":  "#c49000"    # ochre
   "8":  "#ad1457"    # berry
   "9":  "#00838f"    # deep teal
-  "10": "#546e7a"    # slate
+  "10": "#7b5b3a"    # raw umber
 
 neon:
   "0":  "#b0b0b0"    # neon silver
@@ -70,7 +70,7 @@ neon:
   "7":  "#ffea00"    # neon yellow
   "8":  "#ff4081"    # neon pink
   "9":  "#00e5ff"    # neon cyan
-  "10": "#90a4ae"    # neon grey
+  "10": "#cd853f"    # peru
 
 # Extracted from Ace Hardback cover art (Scott Wegner illustrations)
 # Raw dominant colors - very vibrant/neon, true to the cover skulls
@@ -85,7 +85,7 @@ covers_raw:
   "7":  "#00ffc8"    # cyan/teal (TIR)
   "8":  "#ab158f"    # purple (APoH - secondary; primary red conflicts w/ book 3)
   "9":  "#3a7cff"    # blue (TBD - no cover yet)
-  "10": "#8a9bae"    # muted steel (speculation)
+  "10": "#a67b5b"    # bronze
 
 # Cover-inspired but toned for readability as spoiler bars
 covers:
@@ -99,4 +99,4 @@ covers:
   "7":  "#14b894"    # teal (TIR)
   "8":  "#9b1480"    # mulberry (APoH)
   "9":  "#2e6ed9"    # cobalt blue (TBD - no cover yet)
-  "10": "#7a8fa3"    # muted steel (speculation)
+  "10": "#996b3d"    # bronze

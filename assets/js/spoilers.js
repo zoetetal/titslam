@@ -9,6 +9,9 @@
   // Book state: { "1": false, "2": false, ... }
   let bookState = {};
 
+  // Levels revealed by default on first visit
+  var DEFAULT_REVEALED = ["0", "1", "2"];
+
   function loadState() {
     try {
       const saved = localStorage.getItem(STORAGE_KEY);
@@ -29,13 +32,14 @@
   }
 
   function initializeState() {
+    var isFirstVisit = Object.keys(bookState).length === 0;
     // Find all unique book numbers from spoiler elements AND control buttons
     document.querySelectorAll(".spoiler[data-level], .spoiler-toggle-btn[data-level]").forEach(function (el) {
       var books = el.getAttribute("data-level").split(",");
       books.forEach(function (b) {
         b = b.trim();
         if (b && !(b in bookState)) {
-          bookState[b] = false;
+          bookState[b] = isFirstVisit && DEFAULT_REVEALED.indexOf(b) !== -1;
         }
       });
     });
