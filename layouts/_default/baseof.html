@@ -3,18 +3,20 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ .Title }} | {{ site.Title }}</title>
+  <title>{{ if eq .Title site.Title }}{{ site.Title }}{{ else }}{{ .Title }} | {{ site.Title }}{{ end }}</title>
   <meta name="description" content="{{ site.Params.description | default site.Title }}">
   <!-- Open Graph -->
-  <meta property="og:title" content="{{ .Title }} | {{ site.Title }}">
+  <meta property="og:title" content="{{ if eq .Title site.Title }}{{ site.Title }}{{ else }}{{ .Title }} | {{ site.Title }}{{ end }}">
   <meta property="og:description" content="{{ site.Params.description | default site.Title }}">
   <meta property="og:type" content="website">
   <meta property="og:url" content="{{ .Permalink }}">
   <meta property="og:site_name" content="{{ site.Title }}">
+  <meta property="og:image" content="{{ "spoilers.png" | absURL }}">
   <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="{{ .Title }} | {{ site.Title }}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ if eq .Title site.Title }}{{ site.Title }}{{ else }}{{ .Title }} | {{ site.Title }}{{ end }}">
   <meta name="twitter:description" content="{{ site.Params.description | default site.Title }}">
+  <meta name="twitter:image" content="{{ "spoilers.png" | absURL }}">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💣</text></svg>">
   {{- $mainCSS := resources.Get "css/main.css" | minify -}}
   <link rel="stylesheet" href="{{ $mainCSS.RelPermalink }}">

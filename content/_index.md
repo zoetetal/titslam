@@ -292,6 +292,9 @@ I made this particular page because I wanted to see if I could share this theory
 
 ### Contributing & Feedback
 If you want to let me know about errors, suggest more evidence, or other types of contributions, please [submit an issue here](https://github.com/zoetetal/titslam/issues), or you can open a pull request against the underlying repo. 
+#### Contact 
+* [@zoetetal on Bluesky](https://bsky.app/profile/zoetetal.bsky.social)
+
 
 ### Credits
 
@@ -305,6 +308,7 @@ Research assistance provided by the Lore roles on DCC Discord. The name of the t
 * [Dungeon Crawler Carl on Amazon](https://www.amazon.com/dp/B08BX5D4LC) — the book series
 * [Dungeon Crawler Carl on Goodreads](https://www.goodreads.com/series/309211-dungeon-crawler-carl) — reviews and ratings
 * [r/DungeonCrawlerCarl](https://www.reddit.com/r/DungeonCrawlerCarl/) — the subreddit
+
 
 
 ---
