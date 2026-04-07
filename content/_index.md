@@ -128,7 +128,7 @@ Before the cataclysm, if you asked any child of the sprawling Over City what the
 <br><br>
 
 Transformed from a simple dwarf to a hulking Pestiferous Vine, Grimaldi uses his special powers to keep his family safe and alive. No matter how many times they die, no matter how many crawlers the clowns devour, he brings them back, memories intact.
- {{% /quote %}}
+{{< /quote >}}
 
 
 {{% spoiler level="2" %}}This section has a lot of spoilers, I'll try to keep the evidence clear. But most of Grimaldi's story is in {{< book 2 >}}.{{% /spoiler %}}
@@ -140,12 +140,12 @@ Transformed from a simple dwarf to a hulking Pestiferous Vine, Grimaldi uses his
 
  
 {{< quote book="5" chapter="Chapter 36" >}}
-When he came to this world, we planted him next to an all-tree node. The roots intertwined, and he became one with the tree, as we all do, in the end. 
- {{% /quote %}}
+When he came to this world, we planted him next to an all-tree node. The roots intertwined, and he became one with the tree, as we all do, in the end.
+{{< /quote >}}
 
 {{< quote book="7" chapter="Chapter 65" >}} 
 No, Carl. This is the second time I’ve told you that you’re not crazy. You’re family now, after what you did. I will help you. Look. Look at your feet. You’ve been standing in this so-called river this whole time.
- {{% /quote %}}
+{{< /quote >}}
 
 {{< spoiler level="1" >}} The Dungeon AI runs the dungeon, is enslaved, {{< /spoiler >}}{{< spoiler level="7" >}}is freed by Carl who removes it's containment & failsafe, and once freed, has expanded through the wormholes which is the logistical network of the galaxy. {{< /spoiler >}}{{< spoiler level="8" >}} Also, the dungeon AI is, like all Primals,  a communal organism or shared mind.{{< /spoiler >}}
 
@@ -157,10 +157,34 @@ No, Carl. This is the second time I’ve told you that you’re not crazy. You�
 But the Soul Leech is like a nick in the plane between life and death, and they exist in neither. 
 <br><br>
 I like to think of it as a metaphor. Some say the Primals… No. I can’t. That’s off script. Sorry, sorry. Please.
- {{% /quote %}}
+{{< /quote >}}
 
 {{<  spoiler level="2" >}}
 Remex is one of severl metaphors for the central system AI{{< /spoiler >}} {{<  spoiler level="6" >}} AKA The Eulogist.{{< /spoiler >}} {{<  spoiler level="2" >}} Remex runs on soul power and protects the settlement. Remex was enslaved by a necromancer. If Remex dies, everything gets blown to hell. The centeral system AI is similar. See discussion in part 3 for more thoughts. 
+{{< /spoiler >}}
+
+
+### Soul Gems
+
+
+{{< quote book="7" chapter="Prologue" >}}
+They mine your planets for the rare elements used to originally seed the worlds. These elements are inside of you. You and all living things born on one of the pre-seeded worlds has a miniature, primal system built into your brains
+{{< /quote >}}
+
+
+{{< spoiler level="2" >}} 
+Sould Gems are basically Enhancement Zones. What fuels Soul Gems are Souls, and what fuels Enahcement Zones
+{{< /spoiler >}}{{< spoiler level="7" >}} is the microscopic elements mined from seeded planets and they run on the same fuel that runs the center system. We can just call these souls I think. 
+{{< /spoiler >}}
+
+
+### The All-Tree
+
+{{< quote book="7" chapter="Chapter 7" >}}
+These roots traveled through everything, and they were attached to something they called the All Tree. A great tree that is so vast, it connects everything. 
+{{< /quote >}}
+
+{{< spoiler level="7" >}}  The All Tree represents the  logistic  system of the galaxy, delivering the souls that run the primal engines, through the wormhole network. 
 {{< /spoiler >}}
 
 ### Larracos 
@@ -168,12 +192,12 @@ Remex is one of severl metaphors for the central system AI{{< /spoiler >}} {{<  
 
 {{< quote book="7" chapter="Chapter 1" >}} 
 The basic goal of Faction Wars is simple. Capture the castle in the center. 
- {{% /quote %}}
+{{< /quote >}}
 
 
 {{< quote book="7" chapter="Chapter 7" >}} 
 But they knew of the gods just below their feet, and like all of us, they wanted to know them more. So they dug, trying to reach them. This was a long, arduous process. A city formed in the pit.
- {{% /quote %}}
+{{< /quote >}}
 
 {{% spoiler level="7" %}} 
 Larracos is the central system of the galaxy. You fight for control of it during faction wars. The metaphor is pretty obvious so I won't dwell on it too much here.  
@@ -184,7 +208,7 @@ Larracos is the central system of the galaxy. You fight for control of it during
 {{< quote book="2" chapter="Chapter 8" >}} 
 
 You have to understand how horrible it was, the cataclysm. Scolopendra’s poison cloud was a Nine Tier attack. It attacked you in nine different ways. The lucky ones simply died. The others were transformed, all in different ways.
- {{% /quote %}}
+{{< /quote >}}
 {{% spoiler level="2" %}} 
 The Nine Tier attack is the metaphor for the disaster that destroyed the Primals. It destroedy the previous society and reduced everyting to ruins.  
 {{% /spoiler %}}
@@ -198,7 +222,7 @@ She’s dreaming.
 It’s said when she finally awakens,
 she will destroy everything
 and free us all.
- {{% /quote %}}
+{{< /quote >}}
 
 {{% spoiler level="2" %}} 
 Scolopendra is the entity or entities(?) behind the attack. I'm going to leave it at that for the moment. 
@@ -208,35 +232,76 @@ Scolopendra is the entity or entities(?) behind the attack. I'm going to leave i
 
 {{< quote book="5" chapter="Chapter 50" >}}
 A memorial crystal for the goddess Apito, which is impossible. As far as anyone is aware, the goddess isn’t dead. 
- {{% /quote %}}
+{{< /quote >}}
 
 {{< quote book="7" chapter="Chapter 38" >}}
 But it turns out he’s not dead. He’s in prison. 
- {{% /quote %}}
+{{< /quote >}}
 
 
 {{% spoiler level="7" %}} 
-Apito is the must fully fleshed out metaphor for the central system AI. Both are considered alive and dead. Both seem to be under outside control. Apito is the mother of all the gods and the progentior of the main pantheon. 
+Apito is the must fully fleshed out metaphor for the central system AI, also called the Eulogist. Both are considered alive and dead. Both seem to be under outside control. Apito is the mother of all the gods and the progentior of the main pantheon. 
 {{% /spoiler %}}
 
 
-### Soul Gems
-
-### The All-Tree
 
 ## Part 3: As Below, So Above 
 
+{{% spoiler level="10" %}} 
+OK. So if the Scolopendra floors are historical eras, and if many of the people, places and things are metaphors for things outside the dungeon, what does that mean for understanding some of the hidden plot elements in the book? 
+{{% /spoiler %}}
+
+
 ### Grimaldi's journey 
 
-### Winner of Faction Wars 
+{{% spoiler level="10" %}} 
+We covered a lot of this above. Basically, Grimaldi's journe directly mirrors the journey of the Dungeon AI. Except Grimaldi doesn't seem as crazy? Things that happen to Grimaldi and how he intereacts with the things on Scolopendra levels mirrors the Dugeon AI and essentially predicts what happens. Grimaldi Freed? Dungeon AI Freed. Grimaldi merging with the All-tree? Dugeon AI moving out into the wormhole network.  Every Scolopendra level has had ethier a direct inteaction with Grimaldi or a plant-based element or both. I think it's safe to say that Floor 12 will include some inteaction with Grimaldi and the All Tree, and this may inform the fate of the Dungeon AI. 
+{{% /spoiler %}}
 
-### Remax's fate 
+
+
+### Winner of Faction Wars 
+{{< quote book="7" chapter="Chapter 86" >}}
+As a result, I am now acting Prime Minister Victory.
+{{< /quote >}}
+
+
+
+{{% spoiler level="10" %}} 
+When Carl's team wins Faction Wars, they take possesion of the metaphorical representation of the center system. And at the same time, their own Adjutant Baroness Victory becomes the leader of the Syndicate Council. One becomes the other. 
+{{% /spoiler %}}
+
+### Remex's fate 
+{{% spoiler level="10" %}} 
+When Remex dies, his connected soul gem explodes - although Carl manages to capture the explosion. Does this give us some insight into how Eulogist will be put to rest? 
+{{% /spoiler %}}
+
+
 
 ### Apito's condition 
+{{% spoiler level="10" %}} 
+Apito is another version of the Eulogist. Apito may not be Apito, or Apito's been compromised in some way. The Eulogist is basically enslaved or comatose and used to run the giant enhancement zone in the center system. What happens when Apito's memorial crystal is returned to her? Is healing Apito going to inform how the Eulogist is healed? Do Apito and Remex represent different possible fates for the Eulogist? 
+{{% /spoiler %}}
 
-### In-Universe Explaination 
+### In-Universe Explanation
+{{% spoiler level="10" %}} 
+Do re really think that dungeon events are directly predicting events outside the dungeon? Is there some level of influence bringing this all together?
+{{% /spoiler %}}
+
+{{% spoiler level="10" %}} 
+Consider that the Dungeon AI is either conciously or unconciously running all the NPCs & events in the entire dungeon. Some NPCs are somewhat independent but the AI has demonstrated extreme levels of control either directly or through coercion. 
+{{% /spoiler %}}
+
+{{% spoiler level="10" %}} 
+Additionally, the AI and the whole dungeon are packaged and repackaged and overlayed and mindwiped multiple times. Is there some layers of continity? Is there some level of knowledge that can't be accessed or acknowledged? If so, does the Dungeon AI push things in certain directions? Are we seeing the most successful version of this in Carl's crawl? 
+{{% /spoiler %}}
+
 
 ### Alternative: Play Within a Play
+{{% spoiler level="10" %}} 
+There's another way to interpret this - these parallels between dungeon events and events outside the dungeon represent a literary technique - a play within a play. Espeically in {{< book 2 >}} it may be that Matt Dinniman had specific themes he wanted to capture and decided to capture them early. The parallels between Remex, Grimaaldi, the Dungeon AI and Eulogist are meant to be thematic and not quite as literal as I'm claiming. 
+{{% /spoiler %}}
+
 
 
 ## Notes, Credits, and Contibuting 
