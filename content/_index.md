@@ -243,7 +243,7 @@ But it turns out he’s not dead. He’s in prison.
 
 ### Grimaldi's journey 
 
-{{% spoiler level="10" %}}We covered a lot of this above. Basically, Grimaldi's journe directly mirrors the journey of the Dungeon AI. Except Grimaldi doesn't seem as crazy? Things that happen to Grimaldi and how he intereacts with the things on Scolopendra levels mirrors the Dugeon AI and essentially predicts what happens. Grimaldi Freed? Dungeon AI Freed. Grimaldi merging with the All-tree? Dugeon AI moving out into the wormhole network.  {{% /spoiler %}}
+{{% spoiler level="10" %}}We covered a lot of this above. Basically, Grimaldi's journey directly mirrors the journey of the Dungeon AI. Except Grimaldi doesn't seem as crazy? Things that happen to Grimaldi and how he intereacts with the things on Scolopendra levels mirrors the Dugeon AI and essentially predicts what happens. Grimaldi Freed? Dungeon AI Freed. Grimaldi merging with the All-tree? Dugeon AI moving out into the wormhole network.  {{% /spoiler %}}
 
 {{% spoiler level="10" %}}Every Scolopendra level has had ethier a direct inteaction with Grimaldi or a plant-based element or both. I think it's safe to say that Floor 12 will include some inteaction with Grimaldi and the All Tree, and this may inform the fate of the Dungeon AI.{{% /spoiler %}}
 
@@ -299,7 +299,7 @@ First of all credit goes to the author of the Dungeon Crawler Carl series, [Matt
 
 If for some reason you are reading this and haven't read the books go out and get them! 
 
-I have had several people help me directly or indirectly by commenting on this theory. The name of the theory came from commentor. 
+Research assistance provided by the Lore roles on DCC Discord. The name of the theory came from commentor. 
 
 
 ---
