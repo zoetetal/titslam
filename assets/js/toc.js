@@ -33,12 +33,24 @@
   function updateActive() {
     var scrollY = window.scrollY;
     var found = null;
+    var atBottom = (window.innerHeight + scrollY) >= (document.documentElement.scrollHeight - 50);
 
-    for (var i = headingIds.length - 1; i >= 0; i--) {
-      var el = document.getElementById(headingIds[i]);
-      if (el && el.offsetTop - 100 <= scrollY) {
-        found = headingIds[i];
-        break;
+    if (atBottom) {
+      // At bottom of page: activate the last heading visible in the viewport
+      for (var i = headingIds.length - 1; i >= 0; i--) {
+        var el = document.getElementById(headingIds[i]);
+        if (el && el.getBoundingClientRect().top < window.innerHeight) {
+          found = headingIds[i];
+          break;
+        }
+      }
+    } else {
+      for (var i = headingIds.length - 1; i >= 0; i--) {
+        var el = document.getElementById(headingIds[i]);
+        if (el && el.offsetTop - 100 <= scrollY) {
+          found = headingIds[i];
+          break;
+        }
       }
     }
 
@@ -48,6 +60,7 @@
       }
       if (found && linkMap[found]) {
         linkMap[found].classList.add("active");
+        linkMap[found].scrollIntoView({ block: "nearest", behavior: "smooth" });
       }
       currentActive = found;
     }

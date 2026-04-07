@@ -1,13 +1,13 @@
 {{ define "main" }}
   {{/* --- Intro (above spoiler controls) --- */}}
   {{ with .Params.intro }}
-  <div class="site-intro">
+  <div id="how-to-use" class="site-intro">
     {{ . | markdownify }}
   </div>
   {{ end }}
 
   {{/* --- Spoiler Control Panel --- */}}
-  <nav class="spoiler-controls" role="region" aria-label="Spoiler controls — toggle which books' spoilers are visible">
+  <nav id="spoiler-controls" class="spoiler-controls" role="region" aria-label="Spoiler controls — toggle which books' spoilers are visible">
     <div class="spoiler-controls-header">
       <h3 id="spoiler-controls-heading">Spoiler Controls</h3>
       <button class="spoiler-master-btn" id="spoiler-toggle-all" aria-label="Toggle all spoilers on or off">Toggle All</button>
@@ -27,18 +27,29 @@
     </div>
   </nav>
 
-  {{/* --- Page Content with TOC sidebar --- */}}
-  <div class="content-with-toc">
-    <aside class="toc-sidebar" aria-label="Table of contents">
+  {{/* --- Page Content --- */}}
+  <article class="theory-content">
+    {{ .Content }}
+  </article>
+{{ end }}
+
+{{ define "sidebar" }}
+  <aside class="toc-sidebar" aria-label="Table of contents">
+    <div class="toc-header">
       <button class="toc-toggle" aria-expanded="false" aria-controls="toc-nav">
         <span class="toc-toggle-icon">☰</span> Contents
       </button>
-      <div id="toc-nav" class="toc-nav">
-        {{ .TableOfContents }}
-      </div>
-    </aside>
-    <article class="theory-content">
-      {{ .Content }}
-    </article>
-  </div>
+      <button class="theme-toggle-btn" id="theme-toggle" aria-label="Switch between dark and light mode">
+        <span class="toggle-icon" id="toggle-icon">◐</span>
+        <span id="toggle-label">Light</span>
+      </button>
+    </div>
+    <div id="toc-nav" class="toc-nav">
+      <ul class="toc-manual">
+        <li><a href="#how-to-use">How to Use This Site</a></li>
+        <li><a href="#spoiler-controls">Spoiler Controls</a></li>
+      </ul>
+      {{ .TableOfContents }}
+    </div>
+  </aside>
 {{ end }}

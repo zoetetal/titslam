@@ -2,32 +2,18 @@
    Main Site Styles — Themeable via CSS variables
    ============================================ */
 
-/* --- Theme: Light --- */
-[data-theme="light"], :root {
+/* --- Shared --- */
+:root {
   --font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   --font-heading: var(--font-body);
   --font-size: 17px;
   --line-height: 1.75;
   --max-width: 720px;
-  --color-bg: #faf8f5;
-  --color-text: #333;
-  --color-heading: #1a1a1a;
-  --color-subheading: #444;
-  --color-link: #8b5e3c;
-  --color-muted: #777;
-  --color-border: #ddd5c8;
-  --color-footer: #aaa;
   --header-border-width: 1px;
-  --h2-border: 1px solid var(--color-border);
 }
 
-/* --- Theme: Dark --- */
-[data-theme="dark"] {
-  --font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-  --font-heading: var(--font-body);
-  --font-size: 17px;
-  --line-height: 1.75;
-  --max-width: 720px;
+/* --- Theme: Dark (default) --- */
+body, [data-theme="dark"] {
   --color-bg: #1a1714;
   --color-text: #c8bfb0;
   --color-heading: #e8dfd0;
@@ -36,7 +22,19 @@
   --color-muted: #8a7f6f;
   --color-border: #3a332a;
   --color-footer: #6a6050;
-  --header-border-width: 1px;
+  --h2-border: 1px solid var(--color-border);
+}
+
+/* --- Theme: Light --- */
+[data-theme="light"] {
+  --color-bg: #faf8f5;
+  --color-text: #333;
+  --color-heading: #1a1a1a;
+  --color-subheading: #444;
+  --color-link: #8b5e3c;
+  --color-muted: #777;
+  --color-border: #ddd5c8;
+  --color-footer: #aaa;
   --h2-border: 1px solid var(--color-border);
 }
 
@@ -44,6 +42,8 @@
 *, *::before, *::after {
   box-sizing: border-box;
 }
+
+
 
 /* --- Skip to Content Link (keyboard accessibility) --- */
 .skip-link {
@@ -196,20 +196,7 @@ body {
   color: var(--color-footer);
 }
 
-/* --- Theme Toggle --- */
-.theme-toggle {
-  position: sticky;
-  top: 0;
-  z-index: 100;
-  background: var(--color-bg);
-  border-bottom: 1px solid var(--color-border);
-  padding: 0.4rem 1rem;
-  display: flex;
-  justify-content: flex-end;
-  max-width: calc(var(--max-width) + 260px);
-  margin: 0 auto;
-}
-
+/* --- Theme Toggle (inside TOC sidebar) --- */
 .theme-toggle-btn {
   background: none;
   border: 1px solid var(--color-border);
@@ -248,10 +235,6 @@ body {
     font-size: 1.4rem;
   }
 
-  .theme-toggle {
-    padding: 0.3rem 0.5rem;
-  }
-
   .theory-content h2 {
     font-size: 1.3rem;
   }
@@ -275,27 +258,38 @@ body {
   }
 }
 
-/* --- Table of Contents Sidebar --- */
-.content-with-toc {
+/* --- Page Layout (main + sidebar) --- */
+.page-layout {
   display: flex;
   gap: 2rem;
   align-items: flex-start;
 }
 
-.content-with-toc .theory-content {
+.page-main {
   flex: 1;
   min-width: 0;
 }
 
 .toc-sidebar {
   position: sticky;
-  top: 3rem;
+  top: 1rem;
   flex-shrink: 0;
   width: 220px;
-  max-height: calc(100vh - 4rem);
+  max-height: calc(100vh - 2rem);
   overflow-y: auto;
   font-size: 0.82rem;
   order: 1;
+}
+
+.toc-header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background: var(--color-bg);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0.5rem 0.5rem 0.75rem 0;
 }
 
 .toc-sidebar .toc-toggle {
@@ -308,9 +302,16 @@ body {
   padding: 0;
 }
 
-.toc-nav > ul {
+.toc-nav > ul,
+.toc-nav > nav > ul {
   border-left: 2px solid var(--color-border);
   padding-left: 0;
+}
+
+.toc-manual {
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--color-border);
 }
 
 .toc-nav li {
@@ -352,7 +353,7 @@ body {
 
 /* Mobile: collapsible TOC */
 @media (max-width: 900px) {
-  .content-with-toc {
+  .page-layout {
     flex-direction: column;
     gap: 0;
   }
@@ -369,11 +370,14 @@ body {
     border-radius: 6px;
   }
 
+  .toc-header {
+    justify-content: space-between;
+  }
+
   .toc-sidebar .toc-toggle {
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    width: 100%;
     background: none;
     border: none;
     padding: 0.6rem 0.75rem;
@@ -388,6 +392,22 @@ body {
     font-size: 1rem;
   }
 
+  .theme-toggle-btn {
+    padding: 0.4rem;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    justify-content: center;
+  }
+
+  .theme-toggle-btn #toggle-label {
+    display: none;
+  }
+
+  .theme-toggle-btn .toggle-icon {
+    font-size: 1.1rem;
+  }
+
   .toc-nav {
     display: none;
     padding: 0 0.75rem 0.75rem;
@@ -397,7 +417,8 @@ body {
     display: block;
   }
 
-  .toc-nav > ul {
+  .toc-nav > ul,
+  .toc-nav > nav > ul {
     border-left: none;
   }
 

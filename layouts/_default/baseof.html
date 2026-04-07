@@ -22,29 +22,29 @@
 </head>
 <body data-theme="dark" data-palette="covers">
   <a href="#main-content" class="skip-link">Skip to content</a>
-  <div class="theme-toggle" role="toolbar" aria-label="Theme toggle">
-    <button class="theme-toggle-btn" id="theme-toggle" aria-label="Switch between dark and light mode">
-      <span class="toggle-icon" id="toggle-icon">◐</span>
-      <span id="toggle-label">Light</span>
-    </button>
-  </div>
 
   <div class="site-wrapper">
-    <header class="site-header">
-      {{ with .Title }}<h1 class="page-title">{{ . }}</h1>{{ end }}
-      {{ with site.Params.description }}
-      <p class="site-description">{{ . }}</p>
-      {{ end }}
-    </header>
+    <div class="page-layout">
+      <div class="page-main">
+        <header class="site-header">
+          {{ with .Title }}<h1 class="page-title">{{ . }}</h1>{{ end }}
+          {{ with site.Params.description }}
+          <p class="site-description">{{ . }}</p>
+          {{ end }}
+        </header>
 
-    <main id="main-content" class="site-content">
-      {{ block "main" . }}{{ end }}
-    </main>
+        <main id="main-content" class="site-content">
+          {{ block "main" . }}{{ end }}
+        </main>
 
-    <footer class="site-footer">
-      <p>Built with <a href="https://gohugo.io/">Hugo</a></p>
-      <p class="license">This work is licensed under <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.</p>
-    </footer>
+        <footer class="site-footer">
+          <p>Built with <a href="https://gohugo.io/">Hugo</a></p>
+          <p class="license">This work is licensed under <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.</p>
+        </footer>
+      </div>
+
+      {{ block "sidebar" . }}{{ end }}
+    </div>
   </div>
 
   {{- $spoilerJS := resources.Get "js/spoilers.js" | minify -}}
