@@ -135,7 +135,7 @@ Transformed from a simple dwarf to a hulking Pestiferous Vine, Grimaldi uses his
 {{% spoiler level="2" %}}Simply put, Grimaldi is a metaphor for the Dungeon AI.{{% /spoiler %}}
 
 
-{{< spoiler level="2" >}}Grimaldi is the ringleader, runs a circus, is enslaved or cursed by something that causes him to merge into a kind of communal organism. He's freed by Carl, {{< /spoiler >}}{{< spoiler level="5" >}} and once freed he becomes a part of the All-tree{{< /spoiler >}}{{< spoiler level="7" >}} which is a pipeline of souls that power various things in the dungeon. {{< /spoiler >}}
+{{< spoiler level="2" >}}Grimaldi is the ringleader, runs a circus, is enslaved or cursed by something that causes him to merge into a kind of communal organism. He's freed by Carl,{{< /spoiler >}}{{< spoiler level="5" >}} and once freed he becomes a part of the All-tree{{< /spoiler >}}{{< spoiler level="7" >}} which is a pipeline of souls that power various things in the dungeon. {{< /spoiler >}}
 
  
 {{< quote book="5" chapter="Chapter 36" >}}
@@ -146,7 +146,7 @@ When he came to this world, we planted him next to an all-tree node. The roots i
 No, Carl. This is the second time I’ve told you that you’re not crazy. You’re family now, after what you did. I will help you. Look. Look at your feet. You’ve been standing in this so-called river this whole time.
 {{< /quote >}}
 
-{{< spoiler level="1" >}} The Dungeon AI runs the dungeon, is enslaved, {{< /spoiler >}}{{< spoiler level="7" >}}is freed by Carl who removes it's containment & failsafe, and once freed, has expanded through the wormholes which is the logistical network of the galaxy. {{< /spoiler >}}{{< spoiler level="8" >}} Also, the dungeon AI is, like all Primals,  a communal organism or shared mind.{{< /spoiler >}}
+{{< spoiler level="1" >}} The Dungeon AI runs the dungeon, is enslaved, {{< /spoiler >}}{{< spoiler level="7" >}}is freed by Carl who removes it's containment & failsafe, and once freed, has expanded through the wormholes which is the logistical network of the galaxy. {{< /spoiler >}}
 
 {{% spoiler level="10" %}} The parallels between the two are too clear to ignore. The implication are covered further in part 3.{{% /spoiler %}}
 
