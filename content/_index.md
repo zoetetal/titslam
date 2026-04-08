@@ -18,7 +18,7 @@ In case you haven't figured all this out, this whole fable with the Scolopendra 
 
 ## What are the Scolopendra levels? 
 
-In the Dungeon Crawler Carl series, the Scolopendra levels are floors 3, 6, 9, 12, 15 and 18. They are mostly defined and initially described in {{< book 1 >}} and {{< book 2 >}}, and consist of {{% spoiler level="2" %}} The Overcity (floor 3), the Hunting Grounds (floor 6), Faction War(floor 9), Ascendancy Games(floor 12), Sheol (floor 15) and the Scolopendra Club (Floor 18). The levels are described as being based on well known fairy tale in the Galactic Community, and traditional set of floors in all Crawls. They don't seem to be part of the other types of resource recovery scenarios such as free-for-all battle world. {{% /spoiler %}}
+In the Dungeon Crawler Carl series, the Scolopendra levels are floors 3, 6, 9, 12, 15 and 18. They are mostly defined and initially described in {{< book 1 >}} and {{< book 2 >}}, and consist of {{% spoiler level="2" %}} The Overcity (floor 3), the Hunting Grounds (floor 6), Plains of Larracos(floor 9), The Celestial Halls (floor 12), Sheol (floor 15) and the Lair of Scolopendra (Floor 18). The levels are described as being based on well known fairy tale in the Galactic Community, and traditional set of floors in all Crawls. They don't seem to be part of the other types of resource recovery scenarios such as free-for-all battle world. {{% /spoiler %}}
 
 ## TL/DR  
 * All the Scolopendra levels represent the political and economic history of the galaxy {{% spoiler level="2" %}} as it recovers from the attack that ended the Primals{{% /spoiler %}}
@@ -172,8 +172,8 @@ They mine your planets for the rare elements used to originally seed the worlds.
 
 
 {{< spoiler level="2" >}} 
-Soul Gems are basically Enhancement Zones. What fuels Soul Gems are Souls, and what fuels Enhancement Zones
-{{< /spoiler >}}{{< spoiler level="7" >}} is the microscopic elements mined from seeded planets and they run on the same fuel that runs the center system. We can just call these souls I think. 
+Soul Gems are Primal Engines running Enhancement Zones. What fuels Soul Gems are Souls, and what fuels Primal Engines
+{{< /spoiler >}}{{< spoiler level="7" >}} is the microscopic elements mined from brains of living things on seeded planets. We can just call these souls I think. 
 {{< /spoiler >}}
 
 
@@ -182,8 +182,17 @@ Soul Gems are basically Enhancement Zones. What fuels Soul Gems are Souls, and w
 {{< quote book="7" chapter="Chapter 7" >}}
 These roots traveled through everything, and they were attached to something they called the All Tree. A great tree that is so vast, it connects everything. 
 {{< /quote >}}
+{{< quote book="7" chapter="Chapter 65" >}}
+I felt the torrent under me. Not a river. It had never been a river. Voices. Screams. Nightmares distilled to light.
 
-{{< spoiler level="7" >}}  The All Tree represents the  logistic  system of the galaxy, delivering the souls that run the primal engines, through the wormhole network. 
+Souls.
+
+And where was it flowing to?
+
+Down, was the answer. Always down.
+{{< /quote >}}
+
+{{< spoiler level="7" >}}  The All Tree represents the  logistic  system of the galaxy, delivering the souls that run the primal engines, through the tunnel network.  In the dungeon, the All Tree and the River of Souls are aligned. Souls are pushed down to Sheol(?) or in some cases captured by Soul Gems or other items like Carl's Scavenger's Daughter Patch.
 {{< /spoiler >}}
 
 ### Larracos 
@@ -198,7 +207,11 @@ The basic goal of Faction Wars is simple. Capture the castle in the center.
 But they knew of the gods just below their feet, and like all of us, they wanted to know them more. So they dug, trying to reach them. This was a long, arduous process. A city formed in the pit.
 {{< /quote >}}
 
-{{% spoiler level="7" %}}Larracos is the central system of the galaxy. You fight for control of it during faction wars. The metaphor is pretty obvious so I won't dwell on it too much here.{{% /spoiler %}}
+{{< quote book="6" chapter="Chapter 64" >}} 
+Near the center of the galaxy is a very large AI that extends a benign enhancement zone over several solar systems, and it’s where a whole lot of people live. The ‘inner system.’
+{{< /quote >}}
+
+{{% spoiler level="7" %}}Larracos is the inner system of the galaxy. You fight for control of it during faction wars. The metaphor is pretty obvious so I won't dwell on it too much here.{{% /spoiler %}}
 
 ### Scolopendra's Nine Tier Attack 
 
@@ -243,9 +256,9 @@ But it turns out he’s not dead. He’s in prison.
 
 ### Grimaldi's journey 
 
-{{% spoiler level="10" %}}We covered a lot of this above. Basically, Grimaldi's journey directly mirrors the journey of the Dungeon AI. Except Grimaldi doesn't seem as crazy? Things that happen to Grimaldi and how he interacts with the things on Scolopendra levels mirrors the Dungeon AI and essentially predicts what happens. Grimaldi Freed? Dungeon AI Freed. Grimaldi merging with the All-tree? Dungeon AI moving out into the wormhole network.  {{% /spoiler %}}
+{{% spoiler level="10" %}}We covered a lot of this above. Basically, Grimaldi's journey directly mirrors the journey of the Dungeon AI. Things that happen to Grimaldi and how he interacts with the things on Scolopendra levels mirrors the Dungeon AI and essentially predicts what happens. Grimaldi Freed? Dungeon AI Freed. Grimaldi merging with the All-tree? Dungeon AI moving out into the tunnel network. And Carl plays the key role for both.   {{% /spoiler %}}
 
-{{% spoiler level="10" %}}Every Scolopendra level has had either a direct interaction with Grimaldi or a plant-based element or both. I think it's safe to say that Floor 12 will include some interaction with Grimaldi and the All Tree, and this may inform the fate of the Dungeon AI.{{% /spoiler %}}
+{{% spoiler level="10" %}}Every Scolopendra level has had either a direct interaction with Grimaldi or a plant-based element that connects to Grimaldi or both. I think it's safe to say that Floor 12 will include some interaction with Grimaldi and the All Tree, and this may inform the fate of the Dungeon AI.{{% /spoiler %}}
 
 
 
@@ -256,7 +269,7 @@ As a result, I am now acting Prime Minister Victory.
 
 
 
-{{% spoiler level="10" %}}When Carl's team wins Faction Wars, they take possession of the metaphorical representation of the center system. And at the same time, their own Adjutant Baroness Victory becomes the leader of the Syndicate Council. One becomes the other.{{% /spoiler %}}
+{{% spoiler level="10" %}}When Carl's team wins Faction Wars, they take possession of the metaphorical representation of the inner system. And at the same time, their own Adjutant Baroness Victory becomes the leader of the Syndicate Council. One is directly connected to the other.{{% /spoiler %}}
 
 ### Remex's fate 
 {{% spoiler level="10" %}}When Remex dies, his connected soul gem explodes - although Carl manages to capture the explosion. Does this give us some insight into how Eulogist will be put to rest?{{% /spoiler %}}
@@ -264,20 +277,29 @@ As a result, I am now acting Prime Minister Victory.
 
 
 ### Apito's condition 
-{{% spoiler level="10" %}}Apito is another version of the Eulogist. Apito may not be Apito, or Apito's been compromised in some way. The Eulogist is basically enslaved or comatose and used to run the giant enhancement zone in the center system. What happens when Apito's memorial crystal is returned to her? Is healing Apito going to inform how the Eulogist is healed? Do Apito and Remex represent different possible fates for the Eulogist?{{% /spoiler %}}
+{{% spoiler level="10" %}}Apito is the metaphor for the Eulogist. Apito may not be Apito, or Apito's been compromised in some way. The Eulogist is basically enslaved or comatose and used to run the giant enhancement zone in the center system. What happens when Apito's memorial crystal is returned to her? Is healing Apito going to inform how the Eulogist is healed? Do Apito and Remex represent different possible fates for the Eulogist?{{% /spoiler %}}
 
 ### In-Universe Explanation
 {{% spoiler level="10" %}} Do we really think that dungeon events are directly predicting events outside the dungeon? Is there some level of influence bringing this all together?{{% /spoiler %}}
 
-{{% spoiler level="10" %}} Consider that the Dungeon AI is either consciously or unconsciously running all the NPCs & events in the entire dungeon. Some NPCs are somewhat independent but the AI has demonstrated extreme levels of control either directly or through coercion. {{% /spoiler %}}
+{{% spoiler level="10" %}} Consider that the Dungeon AI is either consciously or unconsciously running all the NPCs & events in the entire dungeon. Some NPCs are somewhat independent but the AI has demonstrated extreme levels of control either directly or through coercion. Elites have even more freedom and former crawlers have the most indpendence. But the AI is not above rewriting brains, memories, and personalities of all of them.  {{% /spoiler %}}
 
-{{% spoiler level="10" %}} Additionally, the AI and the whole dungeon are packaged and repackaged and overlayed and mindwiped multiple times. Is there some layers of continuity? Is there some level of knowledge that can't be accessed or acknowledged? If so, does the Dungeon AI push things in certain directions? Are we seeing the most successful version of this in Carl's crawl? {{% /spoiler %}}
+{{% spoiler level="10" %}} Additionally, the AI and the whole dungeon are packaged and repackaged and overlayed and mindwiped multiple times. Are there some layers of continuity? Does the AI have an hidden level of knowledge that can't be accessed or acknowledged? Have the residuals been feeding it information all along? If so, does the Dungeon AI push things in certain directions for certion goals? Are we seeing the most successful version of this in Carl's crawl? {{% /spoiler %}}
 
 
 ### Alternative: Play Within a Play
-{{% spoiler level="10" %}}There's another way to interpret this - these parallels between dungeon events and events outside the dungeon represent a literary technique - a play within a play. Especially in {{< book 2 >}} it may be that Matt Dinniman had specific themes he wanted to capture and decided to capture them early. The parallels between Remex, Grimaldi, the Dungeon AI and Eulogist are meant to be thematic and not quite as literal as I'm claiming.{{% /spoiler %}}
+{{% spoiler level="10" %}}There's another way to interpret this - these parallels between dungeon events and events outside the dungeon represent a literary technique - a play within a play. Especially in {{< book 2 >}} it may be that Matt Dinniman had specific themes he wanted to capture and decided to capture them early. In this interpretation the parallels between Remex, Grimaldi, the Dungeon AI and Eulogist are meant to be thematic and not quite as literal as I'm claiming.{{% /spoiler %}}
+
+### Predictions
+
+{{% spoiler level="10" %}} Based on my analysis above, my most confident prediction is that Grimaldi with play a pivotal role during the Floor 12 focused book and what utlimately happens to Grimaldi will mirror the fate of the Dungeon AI. {{% /spoiler %}}
 
 
+{{% spoiler level="10" %}} I am somewhat less confident about how the Apito storyline will play out. I think it will again mirror the underlying story of the Eulogist but it seems so complicated it may not fit well.  {{% /spoiler %}}
+
+{{% spoiler level="10" %}} The winner of the Ascendancy Battle will have a direct influence on the future of the crawl, and the fate of the current dungeon. The winner is supposed to get a 10 season membership on the crawl council but I predict it will be more definitive than that.{{% /spoiler %}} 
+
+{{% spoiler level="10" %}} There many open questions and dangling threads. Who is the Unwashed? Who are the princes of Hell? do they reflect real entities? Are all the main pantheon gods part of the metaphor? How does it relate to Samantha?  {{% /spoiler %}}
 
 ## Notes, Credits, and Contributing 
 
