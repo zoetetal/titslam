@@ -30,7 +30,13 @@
   var headingIds = Object.keys(linkMap);
   var currentActive = null;
 
+  function isSidebarMode() {
+    return window.matchMedia("(min-width: 901px)").matches;
+  }
+
   function updateActive() {
+    if (!isSidebarMode()) return;
+
     var scrollY = window.scrollY;
     var found = null;
     var atBottom = (window.innerHeight + scrollY) >= (document.documentElement.scrollHeight - 50);

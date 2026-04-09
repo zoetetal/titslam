@@ -20,7 +20,10 @@ In case you haven't figured all this out, this whole fable with the Scolopendra 
 
 In the Dungeon Crawler Carl series, the Scolopendra levels are floors 3, 6, 9, 12, 15 and 18. They are mostly defined and initially described in {{< book 1 >}} and {{< book 2 >}}, and consist of {{% spoiler level="2" %}} The Overcity (floor 3), the Hunting Grounds (floor 6), Plains of Larracos(floor 9), The Celestial Halls (floor 12), Sheol (floor 15) and the Lair of Scolopendra (Floor 18). The levels are described as being based on well known fairy tale in the Galactic Community, and traditional set of floors in all Crawls. They don't seem to be part of the other types of resource recovery scenarios such as free-for-all battle world. {{% /spoiler %}}
 
-## TL/DR  
+## The Guts
+What Is This and Why Should I Care
+{.subhed}
+
 * All the Scolopendra levels represent the political and economic history of the galaxy {{% spoiler level="2" %}} as it recovers from the attack that ended the Primals{{% /spoiler %}}
 * People and places and things in the Scolopendra levels are direct analogues to people, places and things “outside” the dungeon
 * During Carl’s dungeon run, things that happen in Scolopendra levels prefigure things that happen outside the dungeon
@@ -29,7 +32,10 @@ In the Dungeon Crawler Carl series, the Scolopendra levels are floors 3, 6, 9, 1
 
  
 
-## Layers of Analysis 
+## Digging Deep
+And Getting Obsessive
+{.subhed}
+
 To set our context, there  are 3 levels literary analysis here (i.e. fandom nerding out) 
 *  the original in-universe fairy tale on which the Borant showrunners base the Scolopendra levels
 *  The story the showrunners and the AI tell together in Carl’s instance of the dungeon
@@ -40,7 +46,9 @@ The clues in the text are pretty clear about the first 2. But the last one is im
 
 OK, enough scene setting! on to the details of the theory!
 
-## Part 1: Floors as Historical Eras
+## Part 1: A Volcano Through History
+Floors as Historical Eras
+{.subhed}
 
 ### Floor 0: Before the Cataclysm
 
@@ -118,7 +126,9 @@ The winner of the Ascendency battle gets a 10-season seat on the crawl council.
 
 {{% spoiler level="0" %}} Another possibility is that the Scolopendra levels reflect history directly, but a single era of history across all the levels, instead of having multiple eras representation. In the fairytale itself it seems like all the levels exist in the same time period and aren't separated from each other in time in the same way they are separated physically. The mythology could only be about the immediate impact and immediate aftermath of the Cataclysm. But my theory is interpreting the physical separation of floors as the mythological metaphor for temporal separation.   {{% /spoiler %}}
 
-## Part 2: Metaphors  - People, Places, Things
+## Part 2: Can You Dig It?
+Metaphors  - People, Places, Things
+{.subhed}
 
 ### Grimaldi 
 {{< quote book="2" chapter="Chapter 10" >}} 
@@ -250,6 +260,8 @@ But it turns out he’s not dead. He’s in prison.
 
 
 ## Part 3: As Below, So Above 
+The metaphors are real
+{.subhed}
 
 {{% spoiler level="10" %}}OK. So if the Scolopendra floors are historical eras, and if many of the people, places and things are metaphors for things outside the dungeon, what does that mean for understanding some of the hidden plot elements in the book?{{% /spoiler %}}
 
