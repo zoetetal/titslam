@@ -304,7 +304,7 @@ As a result, I am now acting Prime Minister Victory.
 
 ### Predictions
 
-{{% spoiler level="10" %}} Based on my analysis above, my most confident prediction is that Grimaldi with play a pivotal role during the Floor 12 focused book and what utlimately happens to Grimaldi will mirror the fate of the Dungeon AI. {{% /spoiler %}}
+{{% spoiler level="10" %}} Based on my analysis above, my most confident prediction is that Grimaldi will play a pivotal role during the Floor 12 focused book and what utlimately happens to Grimaldi will mirror the fate of the Dungeon AI. {{% /spoiler %}}
 
 
 {{% spoiler level="10" %}} I am somewhat less confident about how the Apito storyline will play out. I think it will again mirror the underlying story of the Eulogist but it seems so complicated it may not fit well.  {{% /spoiler %}}
